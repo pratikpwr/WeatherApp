@@ -1,20 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="51631b25-7640-4d9f-b40b-c74c078e5148" name="Default Changelist" comment="" />
+    <list default="true" id="51631b25-7640-4d9f-b40b-c74c078e5148" name="Default Changelist" comment="initial commit">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/lib/src/config/config.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/lib/src/utils/app_state_notifier.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/lib/src/views/screens/bottom_nav_bar.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/lib/src/views/screens/fav_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/lib/src/views/screens/history_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/lib/src/views/screens/home_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/lib/src/views/screens/map_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/lib/api.dart" beforeDir="false" afterPath="$PROJECT_DIR$/api/lib/api.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/app/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/lib/src/app.dart" beforeDir="false" afterPath="$PROJECT_DIR$/app/lib/src/app.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/lib/src/config/color_const.dart" beforeDir="false" afterPath="$PROJECT_DIR$/app/lib/src/config/color_const.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/lib/src/config/constants.dart" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/lib/src/config/image_const.dart" beforeDir="false" afterPath="$PROJECT_DIR$/app/lib/src/config/image_const.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/lib/src/config/string_const.dart" beforeDir="false" afterPath="$PROJECT_DIR$/app/lib/src/config/string_const.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/lib/src/config/theme_data.dart" beforeDir="false" afterPath="$PROJECT_DIR$/app/lib/src/config/theme_data.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/lib/src/routes/routes.dart" beforeDir="false" afterPath="$PROJECT_DIR$/app/lib/src/routes/routes.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/lib/src/utils/styles.dart" beforeDir="false" afterPath="$PROJECT_DIR$/app/lib/src/utils/styles.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/lib/src/utils/utils.dart" beforeDir="false" afterPath="$PROJECT_DIR$/app/lib/src/utils/utils.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/lib/src/views/views.dart" beforeDir="false" afterPath="$PROJECT_DIR$/app/lib/src/views/views.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/app/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/app/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/test/widget_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/app/test/widget_test.dart" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="20lqRppBhFPx8dNDxAHNEes3aVX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
@@ -50,7 +84,19 @@
       <option name="presentableId" value="Default" />
       <updated>1636629516530</updated>
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1636651156295</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1636651156295</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="61" y="64" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1636629852598">
@@ -89,5 +135,9 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="108" y="53" key="SettingsEditor/0.0.1536.816@0.0.1536.816" timestamp="1636629881885" />
+    <state x="199" y="138" key="Vcs.Push.Dialog.v2" timestamp="1636651172938">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="199" y="138" key="Vcs.Push.Dialog.v2/0.0.1536.816@0.0.1536.816" timestamp="1636651172938" />
   </component>
 </project>

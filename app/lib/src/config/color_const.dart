@@ -1,21 +1,25 @@
-// ignore_for_file: constant_identifier_names
-
 import 'package:flutter/material.dart';
 
-// const Color PRIMARY_COLOR = Color(0xff);
+// static Color PRIMARY_COLOR = Color(0xff);
 
-const Color BACKGROUND_COLOR = Color(0xfffffffb);
-const Color DARK_BACKGROUND_COLOR = Color(0xff11222e);
+class ColorConstants {
+  static Color lightScaffoldBackgroundColor = const Color(0xfffffffb);
+  static Color darkScaffoldBackgroundColor = const Color(0xff11222e);
 
-const Color TEXT_COLOR = Color(0xff1f2d61); // 424e79
-const Color SUBTEXT_COLOR = Color(0xff4f7bda);
+  static Color textColor = const Color(0xff1f2d61); // 424e79
+  static Color subTextColor = const Color(0xff4f7bda);
+
 // this is some sade of blue - change it everywhere
 
-const Color DARK_TEXT_COLOR = Color(0xfffffffb);
-const Color DARK_SUBTEXT_COLOR = Color(0xff4f7bda);
+  static Color darkTextColor = const Color(0xfffffffb);
+  static Color dartSubtextColor = const Color(0xff4f7bda);
 
-const Color ICON_COLOR = Color(0xff1f2d61);
-const Color DARK_ICON_COLOR = Color(0xffff62a1);
+  static Color iconColor = const Color(0xff1f2d61);
+  static Color darkIconColor = const Color(0xffff62a1);
 
-const Color SMALL_ICON_COLOR = Color(0xff4f7bda);
-const Color SMALL_DARK_ICON_COLOR = Color(0xff5281e4);
+  static Color smallIconColor = const Color(0xff4f7bda);
+  static Color darkSmallIconColor = const Color(0xff5281e4);
+
+  static Color secondaryAppColor = const Color(0xffff8e8f);
+  static Color secondaryDarkAppColor = const Color(0xff678df7);
+}

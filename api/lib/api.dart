@@ -5,9 +5,9 @@ import 'package:dio/dio.dart';
 
 class ApiSdk {
   static final ApiBaseHelper _apiBaseHelper = ApiBaseHelper();
-  static const String BASE_URL = "";
-  static const String API_KEY = "c2244bfdf7f3262c530985717be5974e";
-
+  static const String baseUrl = "";
+  static const String apiKey = "c2244bfdf7f3262c530985717be5974e";
+  static const String googleKey = "AIzaSyAFv8KHiwoyUTTErSjwBtiPQJgEgf9l-aM";
 // static Future<Response> loginWithEmailAndPassword(
 //     {required userAuthData}) async {
 //   String path = ApiConstants.LOGIN;
