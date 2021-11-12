@@ -209,6 +209,6 @@ class ThemeConfig {
             GoogleFonts.mukta(fontSize: 16, color: ColorConstants.textColor),
         bodyText2:
             GoogleFonts.mukta(fontSize: 14, color: ColorConstants.textColor)),
-    iconTheme: IconThemeData(color: ColorConstants.iconColor, size: 24),
+    iconTheme: IconThemeData(color: ColorConstants.iconColor),
   );
 }

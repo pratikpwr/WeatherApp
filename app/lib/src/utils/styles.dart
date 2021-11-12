@@ -29,7 +29,7 @@ class Styles {
       fontSize: fontSize,
       color: isDark
           ? ColorConstants.dartSubtextColor
-          : ColorConstants.darkTextColor,
+          : ColorConstants.subTextColor,
       fontWeight: fontWeight,
       fontStyle: fontStyle,
     );

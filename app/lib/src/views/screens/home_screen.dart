@@ -1,5 +1,6 @@
 import 'package:app/src/config/config.dart';
 import 'package:app/src/utils/utils.dart';
+import 'package:app/src/views/views.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:geolocator/geolocator.dart';
@@ -43,56 +44,76 @@ class _HomeScreenState extends State<HomeScreen> {
             if (state is HomeSuccess) {
               final weather = state.weatherData;
               return SafeArea(
-                child: ListView(
+                child: SingleChildScrollView(
                   physics: const BouncingScrollPhysics(),
-                  children: [
-                    Stack(
-                      children: [
-                        Padding(
-                          padding: EdgeInsets.symmetric(
-                              horizontal: _size.width * 0.08,
-                              vertical: _size.height * 0.07),
-                          child: Column(
-                            crossAxisAlignment: CrossAxisAlignment.center,
-                            children: [
-                              Text(
-                                state.place,
-                                style: Styles.titleTextStyle(fontSize: 20),
+                  child: Column(
+                    children: [
+                      SizedBox(
+                        width: _size.width,
+                        child: Stack(
+                          children: [
+                            Padding(
+                              padding: EdgeInsets.symmetric(
+                                  horizontal: _size.width * 0.08,
+                                  vertical: _size.height * 0.07),
+                              child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.center,
+                                children: [
+                                  Text(
+                                    state.place,
+                                    style: Styles.titleTextStyle(fontSize: 20),
+                                  ),
+                                  spacer(height: 8),
+                                  Text(
+                                    '${weather.current.temp}°',
+                                    style: Styles.titleTextStyle(fontSize: 64),
+                                  ),
+                                  spacer(),
+                                  Container(
+                                    padding: const EdgeInsets.symmetric(
+                                        horizontal: 20, vertical: 8),
+                                    decoration: BoxDecoration(
+                                      color:
+                                          ColorConstants.lightBackgroundColor,
+                                      borderRadius: BorderRadius.circular(25),
+                                    ),
+                                    child: Text(
+                                      weather.current.weather.first.main,
+                                      style:
+                                          Styles.titleTextStyle(fontSize: 16),
+                                    ),
+                                  ),
+                                  spacer(height: _size.height * 0.03)
+                                ],
                               ),
-                              spacer(height: 8),
-                              Text(
-                                '${weather.current.temp}°',
-                                style: Styles.titleTextStyle(fontSize: 64),
+                            ),
+                            Positioned(
+                              top: -_size.width * 0.23,
+                              right: -_size.width * 0.33,
+                              child: Image.asset(
+                                ImageAssets.getAsset(
+                                    weather.current.weather.first.icon),
+                                height: _size.height * 0.45,
                               ),
-                              spacer(),
-                              Container(
-                                padding: const EdgeInsets.symmetric(
-                                    horizontal: 16, vertical: 8),
-                                decoration: BoxDecoration(
-                                  color: ColorConstants.lightBackgroundColor,
-                                  borderRadius: BorderRadius.circular(25),
-                                ),
-                                child: Text(
-                                  weather.current.weather.first.main,
-                                  style: Styles.titleTextStyle(fontSize: 16),
-                                ),
-                              ),
-                              spacer(height: _size.height * 0.2)
-                            ],
-                          ),
+                            )
+                          ],
                         ),
-                        Positioned(
-                          top: -_size.width * 0.23,
-                          right: -_size.width * 0.33,
-                          child: Image.asset(
-                            ImageAssets.getAsset(
-                                weather.current.weather.first.icon),
-                            height: _size.height * 0.45,
-                          ),
-                        )
-                      ],
-                    )
-                  ],
+                      ),
+                      WeatherDetailsWidget(curWeather: weather.current),
+                      spacer(),
+                      Container(
+                        padding: const EdgeInsets.symmetric(horizontal: 16),
+                        alignment: Alignment.topLeft,
+                        child: Text("Today",
+                            style: Styles.subTitleTextStyle(
+                                fontSize: 18, fontWeight: FontWeight.w500)),
+                      ),
+                      spacer(height: 8),
+                      HourlyWeatherWidget(hourWeather: weather.hourly!),
+                      spacer(),
+
+                    ],
+                  ),
                 ),
               );
             } else {
@@ -104,3 +125,22 @@ class _HomeScreenState extends State<HomeScreen> {
     );
   }
 }
+
+
+// Row(
+//                         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+//                         children: [
+//                           IconDetailWidget(
+//                             icon: Icons.air_rounded,
+//                             text: '${weather.current.windSpeed}',
+//                           ),
+//                           IconDetailWidget(
+//                             icon: Icons.compress_rounded,
+//                             text: '${weather.current.pressure} hPa',
+//                           ),
+//                           IconDetailWidget(
+//                             icon: Icons.water_rounded,
+//                             text: '${weather.current.humidity}%',
+//                           ),
+//                         ],
+//                       ),

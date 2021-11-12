@@ -85,16 +85,21 @@ class Current {
   List<Weather> weather;
   double? pop;
 
+  static int mToKm(int m) {
+    final km = m / 1000;
+    return km.toInt();
+  }
+
   factory Current.fromJson(Map<String, dynamic> json) => Current(
         dt: json["dt"],
         temp: json["temp"].toInt(),
         feelsLike: json["feels_like"].toDouble(),
-        pressure: json["pressure"],
+        pressure: json["pressure"].toInt(),
         humidity: json["humidity"],
         dewPoint: json["dew_point"].toDouble(),
         uvi: json["uvi"].toDouble(),
         clouds: json["clouds"],
-        visibility: json["visibility"],
+        visibility: mToKm(json["visibility"]),
         windSpeed: json["wind_speed"].toDouble(),
         windDeg: json["wind_deg"].toDouble(),
         windGust: json["wind_gust"].toDouble(),

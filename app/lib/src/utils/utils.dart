@@ -5,6 +5,7 @@ import 'package:app/src/utils/utils.dart';
 import 'package:flutter/material.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:intl/intl.dart';
 
 Future<Position> determinePosition() async {
   bool serviceEnabled;
@@ -32,6 +33,12 @@ Widget spacer({double height = 16}) {
   return SizedBox(
     height: height,
   );
+}
+
+String getTimeInHour(int dt) {
+  final curDt = DateTime.fromMillisecondsSinceEpoch(dt * 1000);
+  final hour = DateFormat('hh a').format(curDt);
+  return hour;
 }
 
 void showSnackBar(BuildContext context, String message) {

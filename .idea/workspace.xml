@@ -19,35 +19,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51631b25-7640-4d9f-b40b-c74c078e5148" name="Default Changelist" comment="setup done">
-      <change afterPath="$PROJECT_DIR$/app/assets/3d-resized/04d.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/3d-resized/04n.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/3d/04d.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/3d/04n.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/lib/modules/home/bloc/home_bloc.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/lib/modules/home/bloc/home_event.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/lib/modules/home/bloc/home_state.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/lib/modules/home/home.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/lib/modules/home/models/gmap_model.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/lib/modules/home/resources/home_repository.dart" afterDir="false" />
+    <list default="true" id="51631b25-7640-4d9f-b40b-c74c078e5148" name="Default Changelist" comment="temp and location on home screen">
+      <change afterPath="$PROJECT_DIR$/app/lib/src/views/widgets/hourly_weather_widget.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/lib/src/views/widgets/icon_detail_widget.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/lib/src/views/widgets/weather_detail_widget.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/lib/api.dart" beforeDir="false" afterPath="$PROJECT_DIR$/api/lib/api.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/lib/rest/api_helpers/api_base_helper.dart" beforeDir="false" afterPath="$PROJECT_DIR$/api/lib/rest/api_helpers/api_base_helper.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/android/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/android/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/android/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/3d-resized/09d.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/3d-resized/09d.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/3d-resized/09n.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/3d-resized/09n.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/3d/09d.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/3d/09d.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/3d/09n.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/3d/09n.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/src/app.dart" beforeDir="false" afterPath="$PROJECT_DIR$/app/lib/src/app.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/src/config/color_const.dart" beforeDir="false" afterPath="$PROJECT_DIR$/app/lib/src/config/color_const.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/lib/src/config/theme_data.dart" beforeDir="false" afterPath="$PROJECT_DIR$/app/lib/src/config/theme_data.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/lib/src/utils/styles.dart" beforeDir="false" afterPath="$PROJECT_DIR$/app/lib/src/utils/styles.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/lib/src/utils/utils.dart" beforeDir="false" afterPath="$PROJECT_DIR$/app/lib/src/utils/utils.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/lib/src/views/screens/home_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/app/lib/src/views/screens/home_screen.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/app/pubspec.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/lib/models/weather_one_call_model.dart" beforeDir="false" afterPath="$PROJECT_DIR$/shared/lib/modules/home/models/weather_one_call_model.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/lib/shared.dart" beforeDir="false" afterPath="$PROJECT_DIR$/shared/lib/shared.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/lib/src/views/views.dart" beforeDir="false" afterPath="$PROJECT_DIR$/app/lib/src/views/views.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/lib/modules/home/models/weather_one_call_model.dart" beforeDir="false" afterPath="$PROJECT_DIR$/shared/lib/modules/home/models/weather_one_call_model.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636657870042</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="temp and location on home screen">
+      <created>1636705158888</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1636705158888</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -137,7 +126,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="setup done" />
-    <option name="LAST_COMMIT_MESSAGE" value="setup done" />
+    <MESSAGE value="temp and location on home screen" />
+    <option name="LAST_COMMIT_MESSAGE" value="temp and location on home screen" />
   </component>
   <component name="WindowStateProjectService">
     <state x="61" y="64" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1636629852598">
@@ -184,10 +174,10 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="108" y="53" key="SettingsEditor/0.0.1536.816@0.0.1536.816" timestamp="1636690522785" />
-    <state x="199" y="138" key="Vcs.Push.Dialog.v2" timestamp="1636657879273">
+    <state x="199" y="138" key="Vcs.Push.Dialog.v2" timestamp="1636705167019">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="199" y="138" key="Vcs.Push.Dialog.v2/0.0.1536.816@0.0.1536.816" timestamp="1636657879273" />
+    <state x="199" y="138" key="Vcs.Push.Dialog.v2/0.0.1536.816@0.0.1536.816" timestamp="1636705167019" />
     <state x="266" y="137" key="search.everywhere.popup" timestamp="1636690880736">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
