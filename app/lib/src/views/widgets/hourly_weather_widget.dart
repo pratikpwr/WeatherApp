@@ -17,7 +17,7 @@ class HourlyWeatherWidget extends StatelessWidget {
     return SizedBox(
       height: _size.height * 0.15,
       child: ListView.builder(
-          itemCount: hourWeather.length,
+          itemCount: 25,
           shrinkWrap: true,
           physics: const BouncingScrollPhysics(),
           scrollDirection: Axis.horizontal,

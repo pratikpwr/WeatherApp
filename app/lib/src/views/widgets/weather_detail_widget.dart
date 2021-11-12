@@ -23,7 +23,7 @@ class WeatherDetailsWidget extends StatelessWidget {
         HeadingDetailWidget(
             title: "Wind Speed", value: '${curWeather.windSpeed} m/s'),
         HeadingDetailWidget(
-            title: "Atmospheric Pressure", value: '${curWeather.pressure} hPa'),
+            title: "Pressure", value: '${curWeather.pressure} hPa'),
         HeadingDetailWidget(title: "UV", value: '${curWeather.uvi}'),
         HeadingDetailWidget(
             title: "Visibility", value: '${curWeather.visibility} km'),

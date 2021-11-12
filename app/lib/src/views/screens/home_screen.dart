@@ -52,6 +52,15 @@ class _HomeScreenState extends State<HomeScreen> {
                         width: _size.width,
                         child: Stack(
                           children: [
+                            Positioned(
+                              top: -_size.width * 0.23,
+                              right: -_size.width * 0.35,
+                              child: Image.asset(
+                                ImageAssets.getAsset(
+                                    weather.current.weather.first.icon),
+                                height: _size.height * 0.45,
+                              ),
+                            ),
                             Padding(
                               padding: EdgeInsets.symmetric(
                                   horizontal: _size.width * 0.08,
@@ -61,7 +70,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                 children: [
                                   Text(
                                     state.place,
-                                    style: Styles.titleTextStyle(fontSize: 20),
+                                    style: Styles.titleTextStyle(fontSize: 22),
                                   ),
                                   spacer(height: 8),
                                   Text(
@@ -87,15 +96,6 @@ class _HomeScreenState extends State<HomeScreen> {
                                 ],
                               ),
                             ),
-                            Positioned(
-                              top: -_size.width * 0.23,
-                              right: -_size.width * 0.33,
-                              child: Image.asset(
-                                ImageAssets.getAsset(
-                                    weather.current.weather.first.icon),
-                                height: _size.height * 0.45,
-                              ),
-                            )
                           ],
                         ),
                       ),
@@ -125,7 +125,6 @@ class _HomeScreenState extends State<HomeScreen> {
     );
   }
 }
-
 
 // Row(
 //                         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
