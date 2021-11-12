@@ -102,22 +102,22 @@ class _HomeScreenState extends State<HomeScreen> {
                       WeatherDetailsWidget(curWeather: weather.current),
                       spacer(),
                       Container(
-                        padding: const EdgeInsets.symmetric(horizontal: 16),
+                        padding: const EdgeInsets.symmetric(horizontal: 20),
                         alignment: Alignment.topLeft,
-                        child: Text("Today",
+                        child: Text("24 Hours",
                             style: Styles.subTitleTextStyle(
                                 fontSize: 18, fontWeight: FontWeight.w500)),
                       ),
                       spacer(height: 8),
                       HourlyWeatherWidget(hourWeather: weather.hourly!),
-                      spacer(),
-
+                      spacer(height: 8),
+                      DailyWeatherWidget(dailyWeather: weather.daily!)
                     ],
                   ),
                 ),
               );
             } else {
-              return const SomethingWentWrong();
+              return const SizedBox();
             }
           },
         ),

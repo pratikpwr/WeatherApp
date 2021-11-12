@@ -25,7 +25,7 @@ class Styles {
     double fontSize = 14,
     FontStyle fontStyle = FontStyle.normal,
   }) {
-    return GoogleFonts.mukta(
+    return GoogleFonts.montserrat(
       fontSize: fontSize,
       color: isDark
           ? ColorConstants.dartSubtextColor

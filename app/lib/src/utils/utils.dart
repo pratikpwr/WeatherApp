@@ -41,6 +41,12 @@ String getTimeInHour(int dt) {
   return hour;
 }
 
+String getDayFromEpoch(int dt) {
+  final curDt = DateTime.fromMillisecondsSinceEpoch(dt * 1000);
+  final day = DateFormat('EEEE').format(curDt);
+  return day;
+}
+
 void showSnackBar(BuildContext context, String message) {
   ScaffoldMessenger.of(context).showSnackBar(SnackBar(
       content: Text(

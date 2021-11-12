@@ -8,3 +8,4 @@ export 'screens/home_screen.dart';
 export 'widgets/icon_detail_widget.dart';
 export 'widgets/hourly_weather_widget.dart';
 export 'widgets/weather_detail_widget.dart';
+export 'widgets/dialy_weather_widget.dart';

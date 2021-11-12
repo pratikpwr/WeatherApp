@@ -19,17 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51631b25-7640-4d9f-b40b-c74c078e5148" name="Default Changelist" comment="temp and location on home screen">
-      <change afterPath="$PROJECT_DIR$/app/lib/src/views/widgets/hourly_weather_widget.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/lib/src/views/widgets/icon_detail_widget.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/lib/src/views/widgets/weather_detail_widget.dart" afterDir="false" />
+    <list default="true" id="51631b25-7640-4d9f-b40b-c74c078e5148" name="Default Changelist" comment="today hourly weather shown">
+      <change afterPath="$PROJECT_DIR$/app/lib/src/views/widgets/dialy_weather_widget.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/src/config/theme_data.dart" beforeDir="false" afterPath="$PROJECT_DIR$/app/lib/src/config/theme_data.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/lib/src/utils/styles.dart" beforeDir="false" afterPath="$PROJECT_DIR$/app/lib/src/utils/styles.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/lib/src/utils/utils.dart" beforeDir="false" afterPath="$PROJECT_DIR$/app/lib/src/utils/utils.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/lib/src/views/screens/home_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/app/lib/src/views/screens/home_screen.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/lib/src/views/views.dart" beforeDir="false" afterPath="$PROJECT_DIR$/app/lib/src/views/views.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/lib/modules/home/models/weather_one_call_model.dart" beforeDir="false" afterPath="$PROJECT_DIR$/shared/lib/modules/home/models/weather_one_call_model.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/lib/src/views/widgets/hourly_weather_widget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/app/lib/src/views/widgets/hourly_weather_widget.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636705158888</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="today hourly weather shown">
+      <created>1636716372019</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1636716372019</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -127,7 +131,8 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="setup done" />
     <MESSAGE value="temp and location on home screen" />
-    <option name="LAST_COMMIT_MESSAGE" value="temp and location on home screen" />
+    <MESSAGE value="today hourly weather shown" />
+    <option name="LAST_COMMIT_MESSAGE" value="today hourly weather shown" />
   </component>
   <component name="WindowStateProjectService">
     <state x="61" y="64" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1636629852598">
@@ -154,30 +159,30 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="387" y="164" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1636629560987" />
-    <state width="1152" height="153" key="GridCell.Tab.0.bottom" timestamp="1636703434697">
+    <state width="1152" height="153" key="GridCell.Tab.0.bottom" timestamp="1636719142110">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1152" height="153" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1636703434697" />
-    <state width="1152" height="153" key="GridCell.Tab.0.center" timestamp="1636703434697">
+    <state width="1152" height="153" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1636719142110" />
+    <state width="1152" height="153" key="GridCell.Tab.0.center" timestamp="1636719142110">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1152" height="153" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1636703434697" />
-    <state width="1152" height="153" key="GridCell.Tab.0.left" timestamp="1636703434697">
+    <state width="1152" height="153" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1636719142110" />
+    <state width="1152" height="153" key="GridCell.Tab.0.left" timestamp="1636719142110">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1152" height="153" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1636703434697" />
-    <state width="1152" height="153" key="GridCell.Tab.0.right" timestamp="1636703434697">
+    <state width="1152" height="153" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1636719142110" />
+    <state width="1152" height="153" key="GridCell.Tab.0.right" timestamp="1636719142110">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1152" height="153" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1636703434697" />
+    <state width="1152" height="153" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1636719142110" />
     <state x="108" y="53" key="SettingsEditor" timestamp="1636690522785">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="108" y="53" key="SettingsEditor/0.0.1536.816@0.0.1536.816" timestamp="1636690522785" />
-    <state x="199" y="138" key="Vcs.Push.Dialog.v2" timestamp="1636705167019">
+    <state x="199" y="138" key="Vcs.Push.Dialog.v2" timestamp="1636716375944">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="199" y="138" key="Vcs.Push.Dialog.v2/0.0.1536.816@0.0.1536.816" timestamp="1636705167019" />
+    <state x="199" y="138" key="Vcs.Push.Dialog.v2/0.0.1536.816@0.0.1536.816" timestamp="1636716375944" />
     <state x="266" y="137" key="search.everywhere.popup" timestamp="1636690880736">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
