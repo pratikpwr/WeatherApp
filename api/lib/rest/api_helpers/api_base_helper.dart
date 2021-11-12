@@ -24,7 +24,7 @@ class ApiBaseHelper {
       dio.options.headers['content-Type'] = 'application/json';
       // dio.options.headers['Authorization'] = 'Bearer $token';
       response = await dio.get(url);
-      debugPrint(response.data.toString());
+      // debugPrint(response.data.toString());
     } on SocketException {
       throw FetchDataException('No Internet connection.');
     }

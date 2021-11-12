@@ -11,10 +11,10 @@ class Styles {
     double fontSize = 15,
     FontStyle fontStyle = FontStyle.normal,
   }) {
-    return GoogleFonts.poppins(
+    return GoogleFonts.montserrat(
       fontSize: fontSize,
       color: isDark ? ColorConstants.darkTextColor : ColorConstants.textColor,
-      fontWeight: fontWeight,
+      // fontWeight: fontWeight,
       fontStyle: fontStyle,
     );
   }
@@ -25,7 +25,7 @@ class Styles {
     double fontSize = 14,
     FontStyle fontStyle = FontStyle.normal,
   }) {
-    return GoogleFonts.poppins(
+    return GoogleFonts.mukta(
       fontSize: fontSize,
       color: isDark
           ? ColorConstants.dartSubtextColor

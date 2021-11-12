@@ -2,6 +2,8 @@
 //
 //     final weatherData = weatherDataFromJson(jsonString);
 
+// ignore_for_file: prefer_null_aware_operators
+
 import 'dart:convert';
 
 WeatherData weatherDataFromJson(String str) =>
@@ -14,7 +16,7 @@ class WeatherData {
     required this.timezone,
     required this.timezoneOffset,
     required this.current,
-    this.minutely,
+    // this.minutely,
     this.hourly,
     this.daily,
   });
@@ -24,8 +26,10 @@ class WeatherData {
   String timezone;
   int timezoneOffset;
   Current current;
-  List<Minutely>? minutely;
+
+  // List<Minutely>? minutely;
   List<Current>? hourly;
+
   List<Daily>? daily;
 
   factory WeatherData.fromJson(Map<String, dynamic> json) => WeatherData(
@@ -34,10 +38,10 @@ class WeatherData {
         timezone: json["timezone"],
         timezoneOffset: json["timezone_offset"],
         current: Current.fromJson(json["current"]),
-        minutely: json["minutely"] == null
-            ? null
-            : List<Minutely>.from(
-                json["minutely"].map((x) => Minutely.fromJson(x))),
+        // minutely: json["minutely"] == null
+        //     ? null
+        //     : List<Minutely>.from(
+        //         json["minutely"].map((x) => Minutely.fromJson(x))),
         hourly: json["hourly"] == null
             ? null
             : List<Current>.from(
@@ -67,32 +71,32 @@ class Current {
   });
 
   int dt;
-  double temp;
-  double feelsLike;
+  int temp;
+  double? feelsLike;
   int pressure;
   int humidity;
-  double dewPoint;
-  int uvi;
+  double? dewPoint;
+  double uvi;
   int clouds;
   int visibility;
-  double windSpeed;
-  int windDeg;
-  double windGust;
+  double? windSpeed;
+  double? windDeg;
+  double? windGust;
   List<Weather> weather;
-  double pop;
+  double? pop;
 
   factory Current.fromJson(Map<String, dynamic> json) => Current(
         dt: json["dt"],
-        temp: json["temp"].toDouble(),
+        temp: json["temp"].toInt(),
         feelsLike: json["feels_like"].toDouble(),
         pressure: json["pressure"],
         humidity: json["humidity"],
         dewPoint: json["dew_point"].toDouble(),
-        uvi: json["uvi"],
+        uvi: json["uvi"].toDouble(),
         clouds: json["clouds"],
         visibility: json["visibility"],
         windSpeed: json["wind_speed"].toDouble(),
-        windDeg: json["wind_deg"],
+        windDeg: json["wind_deg"].toDouble(),
         windGust: json["wind_gust"].toDouble(),
         weather:
             List<Weather>.from(json["weather"].map((x) => Weather.fromJson(x))),
@@ -109,28 +113,28 @@ class Weather {
   });
 
   int id;
-  Status main;
+  String main;
   String description;
   String icon;
 
   factory Weather.fromJson(Map<String, dynamic> json) => Weather(
         id: json["id"],
-        main: mainValues.map[json["main"]]!,
+        main: json["main"],
         description: json["description"],
         icon: json["icon"],
       );
 }
 
-enum Status { clouds, snow, clear, rain, drizzle, thunderstorm }
+// enum Status { clouds, snow, clear, rain, drizzle, thunderstorm }
 
-final mainValues = EnumValues({
-  "Clouds": Status.clouds,
-  "Snow": Status.snow,
-  "Clear": Status.clear,
-  "Rain": Status.rain,
-  "Drizzle": Status.drizzle,
-  "Thunderstorm": Status.thunderstorm
-});
+// final mainValues = EnumValues({
+//   "Clouds": Status.clouds,
+//   "Snow": Status.snow,
+//   "Clear": Status.clear,
+//   "Rain": Status.rain,
+//   "Drizzle": Status.drizzle,
+//   "Thunderstorm": Status.thunderstorm
+// });
 
 class Daily {
   Daily({
@@ -139,21 +143,21 @@ class Daily {
     required this.sunset,
     required this.moonrise,
     required this.moonset,
-    required this.moonPhase,
+    this.moonPhase,
     required this.temp,
     required this.feelsLike,
     required this.pressure,
     required this.humidity,
-    required this.dewPoint,
-    required this.windSpeed,
+    this.dewPoint,
+    this.windSpeed,
     required this.windDeg,
-    required this.windGust,
+    this.windGust,
     required this.weather,
     required this.clouds,
-    required this.pop,
-    required this.uvi,
-    required this.snow,
-    required this.rain,
+    this.pop,
+    this.uvi,
+    this.snow,
+    this.rain,
   });
 
   int dt;
@@ -161,21 +165,21 @@ class Daily {
   int sunset;
   int moonrise;
   int moonset;
-  double moonPhase;
+  double? moonPhase;
   Temp temp;
   FeelsLikeInDay feelsLike;
   int pressure;
   int humidity;
-  double dewPoint;
-  double windSpeed;
+  double? dewPoint;
+  double? windSpeed;
   int windDeg;
-  double windGust;
+  double? windGust;
   List<Weather> weather;
   int clouds;
-  double pop;
-  int uvi;
-  double snow;
-  double rain;
+  double? pop;
+  double? uvi;
+  double? snow;
+  double? rain;
 
   factory Daily.fromJson(Map<String, dynamic> json) => Daily(
         dt: json["dt"],
@@ -183,70 +187,72 @@ class Daily {
         sunset: json["sunset"],
         moonrise: json["moonrise"],
         moonset: json["moonset"],
-        moonPhase: json["moon_phase"].toDouble(),
+        moonPhase:
+            json["moon_phase"] == null ? null : json["moon_phase"].toDouble(),
         temp: Temp.fromJson(json["temp"]),
         feelsLike: FeelsLikeInDay.fromJson(json["feels_like"]),
         pressure: json["pressure"],
         humidity: json["humidity"],
-        dewPoint: json["dew_point"].toDouble(),
-        windSpeed: json["wind_speed"].toDouble(),
+        dewPoint:
+            json["dew_point"] == null ? null : json["dew_point"].toDouble(),
+        windSpeed:
+            json["wind_speed"] == null ? null : json["wind_speed"].toDouble(),
         windDeg: json["wind_deg"],
-        windGust: json["wind_gust"].toDouble(),
+        windGust:
+            json["wind_gust"] == null ? null : json["wind_gust"].toDouble(),
         weather:
             List<Weather>.from(json["weather"].map((x) => Weather.fromJson(x))),
         clouds: json["clouds"],
-        pop: json["pop"].toDouble(),
-        uvi: json["uvi"],
-        snow: json["snow"] == null ? null : json["snow"].toDouble(),
-        rain: json["rain"] == null ? null : json["rain"].toDouble(),
+        pop: json["pop"] == null ? null : json["pop"].toDouble(),
+        uvi: json["uvi"] == null ? null : json["uvi"].toDouble(),
       );
 }
 
 class FeelsLikeInDay {
   FeelsLikeInDay({
-    required this.day,
-    required this.night,
-    required this.eve,
-    required this.morn,
+    this.day,
+    this.night,
+    this.eve,
+    this.morn,
   });
 
-  double day;
-  double night;
-  double eve;
-  double morn;
+  double? day;
+  double? night;
+  double? eve;
+  double? morn;
 
   factory FeelsLikeInDay.fromJson(Map<String, dynamic> json) => FeelsLikeInDay(
-        day: json["day"].toDouble(),
-        night: json["night"].toDouble(),
-        eve: json["eve"].toDouble(),
-        morn: json["morn"].toDouble(),
+        day: json["day"] == null ? null : json["day"].toDouble(),
+        night: json["night"] == null ? null : json["night"].toDouble(),
+        eve: json["eve"] == null ? null : json["eve"].toDouble(),
+        morn: json["morn"] == null ? null : json["morn"].toDouble(),
       );
 }
 
 class Temp {
   Temp({
-    required this.day,
-    required this.min,
-    required this.max,
-    required this.night,
-    required this.eve,
-    required this.morn,
+    this.day,
+    this.min,
+    this.max,
+    this.night,
+    this.eve,
+    this.morn,
   });
 
-  double day;
-  double min;
-  double max;
-  double night;
-  double eve;
-  double morn;
+  int? day;
+  int? min;
+  int? max;
+  int? night;
+  int? eve;
+  int? morn;
 
   factory Temp.fromJson(Map<String, dynamic> json) => Temp(
-        day: json["day"].toDouble(),
-        min: json["min"].toDouble(),
-        max: json["max"].toDouble(),
-        night: json["night"].toDouble(),
-        eve: json["eve"].toDouble(),
-        morn: json["morn"].toDouble(),
+        day: json["day"] == null ? null : json["day"].toInt(),
+        min: json["min"] == null ? null : json["min"].toInt(),
+        max: json["max"] == null ? null : json["max"].toInt(),
+        night: json["night"] == null ? null : json["night"].toInt(),
+        eve: json["eve"] == null ? null : json["eve"].toInt(),
+        morn: json["morn"] == null ? null : json["morn"].toInt(),
       );
 }
 

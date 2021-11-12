@@ -6,6 +6,9 @@ class ColorConstants {
   static Color lightScaffoldBackgroundColor = const Color(0xfffffffb);
   static Color darkScaffoldBackgroundColor = const Color(0xff11222e);
 
+  static Color lightBackgroundColor = const Color(0xfff2efec);
+  static Color darkBackgroundColor = const Color(0xff353361);
+
   static Color textColor = const Color(0xff1f2d61); // 424e79
   static Color subTextColor = const Color(0xff4f7bda);
 

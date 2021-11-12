@@ -2,6 +2,7 @@ import 'package:app/src/config/color_const.dart';
 import 'package:app/src/utils/styles.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class ThemeConfig {
   static ThemeData createTheme({
@@ -200,9 +201,14 @@ class ThemeConfig {
   static ThemeData myLightTheme = ThemeData(
     scaffoldBackgroundColor: ColorConstants.lightScaffoldBackgroundColor,
     textTheme: TextTheme(
-        headline3: Styles.titleTextStyle(fontSize: 20),
-        bodyText1: Styles.titleTextStyle(),
-        bodyText2: Styles.subTitleTextStyle()),
+        headline1:
+            GoogleFonts.mukta(fontSize: 32, color: ColorConstants.textColor),
+        headline3:
+            GoogleFonts.mukta(fontSize: 22, color: ColorConstants.textColor),
+        bodyText1:
+            GoogleFonts.mukta(fontSize: 16, color: ColorConstants.textColor),
+        bodyText2:
+            GoogleFonts.mukta(fontSize: 14, color: ColorConstants.textColor)),
     iconTheme: IconThemeData(color: ColorConstants.iconColor, size: 24),
   );
 }
