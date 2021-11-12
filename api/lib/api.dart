@@ -15,8 +15,20 @@ class ApiSdk {
       required String unit,
       required String exclude}) async {
     final query =
-        "lon=$lat&lat=$lat&appid=$_apiKey&units=$unit&exclude=$exclude";
+        "lon=$long&lat=$lat&appid=$_apiKey&units=$unit&exclude=$exclude";
     final path = "$_baseUrl/onecall?$query";
+
+    Response response = await _apiBaseHelper.get(path);
+    return response;
+  }
+
+  static Future<Response> oneCallHistoryApi(
+      {required double lat,
+      required double long,
+      required String unit,
+      required int dt}) async {
+    final query = "lon=$long&lat=$lat&appid=$_apiKey&units=$unit&dt=$dt";
+    final path = "$_baseUrl/onecall/timemachine?$query";
 
     Response response = await _apiBaseHelper.get(path);
     return response;
