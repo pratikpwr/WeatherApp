@@ -15,7 +15,7 @@ dependencies:
   bloc: ^7.1.0
   equatable: ^2.0.3
   meta: ^1.7.0
-
+  intl: ^0.17.0
   api:
     path: ../api
 

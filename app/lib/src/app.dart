@@ -1,10 +1,10 @@
-import 'package:app/src/config/config.dart';
-import 'package:app/src/routes/routes.dart';
-import 'package:app/src/utils/utils.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:provider/provider.dart';
 import 'package:shared/shared.dart';
+import './config/config.dart';
+import './routes/routes.dart';
+import './utils/utils.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
@@ -15,6 +15,7 @@ class MyApp extends StatelessWidget {
       return MultiBlocProvider(
         providers: [
           BlocProvider(create: (context) => HomeBloc()),
+          BlocProvider(create: (context) => HistoryBloc()),
         ],
         child: MaterialApp(
           title: appName,

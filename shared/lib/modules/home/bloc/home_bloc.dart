@@ -3,7 +3,7 @@ import 'package:dio/dio.dart';
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
 import 'package:shared/modules/home/home.dart';
-import 'package:shared/modules/home/models/gmap_model.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 part 'home_event.dart';
 
@@ -19,6 +19,9 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
   ) async* {
     if (event is GetHomeData) {
       yield HomeLoading();
+      final prefs = await SharedPreferences.getInstance();
+      prefs.setDouble('lat', event.lat);
+      prefs.setDouble('long', event.long);
       try {
         Response response =
             await _repository.getHomeData(lat: event.lat, long: event.long);
@@ -34,7 +37,7 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
           // final place = gData.results[0].addressComponents[1].longName;
           yield HomeSuccess(weatherData, place);
         } else {
-          yield const HomeFailed("Server Error");
+          yield HomeFailed(response.data['message']);
         }
       } catch (e) {
         yield HomeFailed(e.toString());
