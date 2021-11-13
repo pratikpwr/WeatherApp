@@ -19,14 +19,21 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51631b25-7640-4d9f-b40b-c74c078e5148" name="Default Changelist" comment="today hourly weather shown">
-      <change afterPath="$PROJECT_DIR$/app/lib/src/views/widgets/dialy_weather_widget.dart" afterDir="false" />
+    <list default="true" id="51631b25-7640-4d9f-b40b-c74c078e5148" name="Default Changelist" comment="wrote tests for api">
+      <change afterPath="$PROJECT_DIR$/api/lib/secrets.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared/lib/modules/history/bloc/history_bloc.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared/lib/modules/history/bloc/history_event.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared/lib/modules/history/bloc/history_state.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared/lib/modules/history/history.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared/lib/modules/history/models/history_model.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared/lib/modules/history/resources/history_repository.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/src/utils/styles.dart" beforeDir="false" afterPath="$PROJECT_DIR$/app/lib/src/utils/styles.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/api/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/lib/api.dart" beforeDir="false" afterPath="$PROJECT_DIR$/api/lib/api.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/test/api_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/api/test/api_test.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/lib/src/utils/utils.dart" beforeDir="false" afterPath="$PROJECT_DIR$/app/lib/src/utils/utils.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/src/views/screens/home_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/app/lib/src/views/screens/home_screen.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/src/views/views.dart" beforeDir="false" afterPath="$PROJECT_DIR$/app/lib/src/views/views.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/lib/src/views/widgets/hourly_weather_widget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/app/lib/src/views/widgets/hourly_weather_widget.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/lib/modules/home/models/weather_one_call_model.dart" beforeDir="false" afterPath="$PROJECT_DIR$/shared/lib/modules/home/models/weather_one_call_model.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,11 +75,32 @@
       <recent name="D:\MyProjects\AndroidStudioProjects\3.OtherProjects\farmther\shared\lib" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Flutter.app">
     <configuration name="app" type="FlutterRunConfigurationType" factoryName="Flutter">
       <option name="filePath" value="$PROJECT_DIR$/app/lib/main.dart" />
       <method v="2" />
     </configuration>
+    <configuration name="get location name using lat long" type="FlutterTestConfigType" factoryName="Flutter Test" temporary="true" nameIsGenerated="true">
+      <option name="testName" value="get location name using lat long" />
+      <option name="testFile" value="$PROJECT_DIR$/api/test/api_test.dart" />
+      <method v="2" />
+    </configuration>
+    <configuration name="get weather history" type="FlutterTestConfigType" factoryName="Flutter Test" temporary="true" nameIsGenerated="true">
+      <option name="testName" value="get weather history" />
+      <option name="testFile" value="$PROJECT_DIR$/api/test/api_test.dart" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tests in api_test.dart" type="FlutterTestConfigType" factoryName="Flutter Test" temporary="true" nameIsGenerated="true">
+      <option name="testFile" value="$PROJECT_DIR$/api/test/api_test.dart" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Flutter Test.tests in api_test.dart" />
+        <item itemvalue="Flutter Test.get weather history" />
+        <item itemvalue="Flutter Test.get location name using lat long" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -113,7 +141,28 @@
       <option name="project" value="LOCAL" />
       <updated>1636716372019</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="daily weather shown, Home Screen complete">
+      <created>1636719444020</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1636719444020</updated>
+    </task>
+    <task id="LOCAL-00006" summary="small improvements">
+      <created>1636723766131</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1636723766131</updated>
+    </task>
+    <task id="LOCAL-00007" summary="wrote tests for api">
+      <created>1636727578105</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1636727578105</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -126,13 +175,17 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="setup done" />
     <MESSAGE value="temp and location on home screen" />
     <MESSAGE value="today hourly weather shown" />
-    <option name="LAST_COMMIT_MESSAGE" value="today hourly weather shown" />
+    <MESSAGE value="daily weather shown, Home Screen complete" />
+    <MESSAGE value="small improvements" />
+    <MESSAGE value="wrote tests for api" />
+    <option name="LAST_COMMIT_MESSAGE" value="wrote tests for api" />
   </component>
   <component name="WindowStateProjectService">
     <state x="61" y="64" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1636629852598">
@@ -159,34 +212,34 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="387" y="164" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1636629560987" />
-    <state width="1152" height="153" key="GridCell.Tab.0.bottom" timestamp="1636719142110">
+    <state width="1152" height="149" key="GridCell.Tab.0.bottom" timestamp="1636732525164">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1152" height="153" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1636719142110" />
-    <state width="1152" height="153" key="GridCell.Tab.0.center" timestamp="1636719142110">
+    <state width="1152" height="149" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1636732525164" />
+    <state width="1152" height="149" key="GridCell.Tab.0.center" timestamp="1636732525164">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1152" height="153" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1636719142110" />
-    <state width="1152" height="153" key="GridCell.Tab.0.left" timestamp="1636719142110">
+    <state width="1152" height="149" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1636732525164" />
+    <state width="1152" height="149" key="GridCell.Tab.0.left" timestamp="1636732525163">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1152" height="153" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1636719142110" />
-    <state width="1152" height="153" key="GridCell.Tab.0.right" timestamp="1636719142110">
+    <state width="1152" height="149" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1636732525163" />
+    <state width="1152" height="149" key="GridCell.Tab.0.right" timestamp="1636732525164">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1152" height="153" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1636719142110" />
-    <state x="108" y="53" key="SettingsEditor" timestamp="1636690522785">
+    <state width="1152" height="149" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1636732525164" />
+    <state x="108" y="53" key="SettingsEditor" timestamp="1636731874554">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="108" y="53" key="SettingsEditor/0.0.1536.816@0.0.1536.816" timestamp="1636690522785" />
-    <state x="199" y="138" key="Vcs.Push.Dialog.v2" timestamp="1636716375944">
+    <state x="108" y="53" key="SettingsEditor/0.0.1536.816@0.0.1536.816" timestamp="1636731874554" />
+    <state x="199" y="138" key="Vcs.Push.Dialog.v2" timestamp="1636727617877">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="199" y="138" key="Vcs.Push.Dialog.v2/0.0.1536.816@0.0.1536.816" timestamp="1636716375944" />
-    <state x="266" y="137" key="search.everywhere.popup" timestamp="1636690880736">
+    <state x="199" y="138" key="Vcs.Push.Dialog.v2/0.0.1536.816@0.0.1536.816" timestamp="1636727617877" />
+    <state x="266" y="137" width="672" height="678" key="search.everywhere.popup" timestamp="1636732111282">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="266" y="137" key="search.everywhere.popup/0.0.1536.816@0.0.1536.816" timestamp="1636690880736" />
+    <state x="266" y="137" width="672" height="678" key="search.everywhere.popup/0.0.1536.816@0.0.1536.816" timestamp="1636732111282" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

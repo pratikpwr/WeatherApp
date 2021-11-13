@@ -35,6 +35,9 @@ Widget spacer({double height = 16}) {
   );
 }
 
+DateTime getDateTimeFromUnix(int dt) =>
+    DateTime.fromMillisecondsSinceEpoch(dt * 1000);
+
 String getTimeInHour(int dt) {
   final curDt = DateTime.fromMillisecondsSinceEpoch(dt * 1000);
   final hour = DateFormat('hh a').format(curDt);

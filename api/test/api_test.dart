@@ -19,6 +19,8 @@ void main() {
         exclude: 'minutely,hourly,daily');
     // token = response.data['token'];
     expect("Asia/Kolkata", response.data["timezone"]);
+    expect("Asia/Kolkata", response.data["timezone"]);
+    expect("Asia/Kolkata", response.data["timezone"]);
   });
   test('get weather history', () async {
     final curDt = DateTime.now()

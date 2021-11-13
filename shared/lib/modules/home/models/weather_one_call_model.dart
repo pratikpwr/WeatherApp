@@ -55,6 +55,8 @@ class WeatherData {
 class Current {
   Current({
     required this.dt,
+    this.sunrise,
+    this.sunset,
     required this.temp,
     required this.feelsLike,
     required this.pressure,
@@ -71,6 +73,8 @@ class Current {
   });
 
   int dt;
+  int? sunrise;
+  int? sunset;
   int temp;
   double? feelsLike;
   int pressure;
@@ -92,6 +96,8 @@ class Current {
 
   factory Current.fromJson(Map<String, dynamic> json) => Current(
         dt: json["dt"],
+        sunrise: json["sunrise"],
+        sunset: json["sunset"],
         temp: json["temp"].toInt(),
         feelsLike: json["feels_like"].toDouble(),
         pressure: json["pressure"].toInt(),
