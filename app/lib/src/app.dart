@@ -16,6 +16,7 @@ class MyApp extends StatelessWidget {
         providers: [
           BlocProvider(create: (context) => HomeBloc()),
           BlocProvider(create: (context) => HistoryBloc()),
+          BlocProvider(create: (context) => CityWeatherBloc()),
         ],
         child: MaterialApp(
           title: appName,

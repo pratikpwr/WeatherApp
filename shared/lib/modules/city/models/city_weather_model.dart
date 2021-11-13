@@ -36,20 +36,23 @@ class Main {
     required this.temp,
     required this.tempMin,
     required this.tempMax,
+    required this.feelsLike,
     required this.pressure,
     required this.humidity,
   });
 
-  double temp;
-  double tempMin;
-  double tempMax;
+  int temp;
+  int tempMin;
+  int tempMax;
+  double feelsLike;
   int pressure;
   int humidity;
 
   factory Main.fromJson(Map<String, dynamic> json) => Main(
-        temp: json["temp"].toDouble(),
-        tempMin: json["temp_min"].toDouble(),
-        tempMax: json["temp_max"].toDouble(),
+        temp: json["temp"].toInt(),
+        feelsLike: json["feels_like"].toDouble(),
+        tempMin: json["temp_min"].toInt(),
+        tempMax: json["temp_max"].toInt(),
         pressure: json["pressure"],
         humidity: json["humidity"],
       );

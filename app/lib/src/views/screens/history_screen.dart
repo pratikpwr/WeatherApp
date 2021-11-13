@@ -12,7 +12,6 @@ class HistoryScreen extends StatefulWidget {
 }
 
 class _HistoryScreenState extends State<HistoryScreen> {
-  bool isVisible = false;
   @override
   void initState() {
     BlocProvider.of<HistoryBloc>(context).add(GetHistoryData());
@@ -58,9 +57,11 @@ class _HistoryScreenState extends State<HistoryScreen> {
                   ],
                 ),
               );
-            } else {
-              return const SizedBox();
             }
+            if (state is HistoryFailed) {
+              return SomethingWentWrong(message: state.error);
+            }
+            return const SizedBox();
           },
         ),
       ),

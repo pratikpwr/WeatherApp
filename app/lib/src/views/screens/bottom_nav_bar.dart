@@ -20,7 +20,7 @@ class _BottomNavBarState extends State<BottomNavBar> {
     GlobalKey<NavigatorState>(),
   ];
 
-  static const List<Widget> _widgetOptions = <Widget>[
+  static List<Widget> _widgetOptions = <Widget>[
     HomeScreen(),
     FavScreen(),
     HistoryScreen(),
@@ -60,9 +60,9 @@ class _BottomNavBarState extends State<BottomNavBar> {
                 label: "Home"),
             BottomNavigationBarItem(
                 icon: Icon(
-                  Icons.favorite_border_rounded,
+                  Icons.search_rounded,
                 ),
-                label: "Favourite"),
+                label: "Search"),
             BottomNavigationBarItem(
                 icon: Icon(
                   Icons.book,
@@ -87,7 +87,7 @@ class _BottomNavBarState extends State<BottomNavBar> {
   Map<String, WidgetBuilder> _routeBuilders(BuildContext context, int index) {
     return {
       '/bottomNavBar': (context) {
-        return const [HomeScreen(), FavScreen(), HistoryScreen(), MapScreen()]
+        return [HomeScreen(), FavScreen(), HistoryScreen(), MapScreen()]
             .elementAt(index);
       },
     };

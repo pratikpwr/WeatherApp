@@ -43,6 +43,11 @@ String getTimeInHour(int dt) {
   final hour = DateFormat('hh a').format(curDt);
   return hour;
 }
+String getTimeInHHMM(int dt) {
+  final curDt = DateTime.fromMillisecondsSinceEpoch(dt * 1000);
+  final hour = DateFormat('hh:mm a').format(curDt);
+  return hour;
+}
 
 String getDayFromEpoch(int dt) {
   final curDt = DateTime.fromMillisecondsSinceEpoch(dt * 1000);

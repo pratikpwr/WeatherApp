@@ -116,9 +116,11 @@ class _HomeScreenState extends State<HomeScreen> {
                   ),
                 ),
               );
-            } else {
-              return const SizedBox();
             }
+            if (state is HomeFailed) {
+              return SomethingWentWrong(message: state.error);
+            }
+            return const SizedBox();
           },
         ),
       ),

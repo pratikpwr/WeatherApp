@@ -19,20 +19,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51631b25-7640-4d9f-b40b-c74c078e5148" name="Default Changelist" comment="history logic added">
-      <change afterPath="$PROJECT_DIR$/shared/lib/modules/city/bloc/city_weather_bloc.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/lib/modules/city/bloc/city_weather_event.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/lib/modules/city/bloc/city_weather_state.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/lib/modules/city/models/city_weather_model.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/lib/modules/city/resources/city_repository.dart" afterDir="false" />
+    <list default="true" id="51631b25-7640-4d9f-b40b-c74c078e5148" name="Default Changelist" comment="city bloc complete">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/lib/api.dart" beforeDir="false" afterPath="$PROJECT_DIR$/api/lib/api.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/test/api_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/api/test/api_test.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/lib/src/app.dart" beforeDir="false" afterPath="$PROJECT_DIR$/app/lib/src/app.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/lib/src/utils/utils.dart" beforeDir="false" afterPath="$PROJECT_DIR$/app/lib/src/utils/utils.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/lib/src/views/screens/bottom_nav_bar.dart" beforeDir="false" afterPath="$PROJECT_DIR$/app/lib/src/views/screens/bottom_nav_bar.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/lib/src/views/screens/fav_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/app/lib/src/views/screens/fav_screen.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/lib/src/views/screens/history_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/app/lib/src/views/screens/history_screen.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/src/views/widgets/hourly_expanding_widget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/app/lib/src/views/widgets/hourly_expanding_widget.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/lib/modules/history/bloc/history_bloc.dart" beforeDir="false" afterPath="$PROJECT_DIR$/shared/lib/modules/history/bloc/history_bloc.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/lib/modules/history/bloc/history_state.dart" beforeDir="false" afterPath="$PROJECT_DIR$/shared/lib/modules/history/bloc/history_state.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/lib/modules/home/models/weather_one_call_model.dart" beforeDir="false" afterPath="$PROJECT_DIR$/shared/lib/modules/home/models/weather_one_call_model.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/lib/src/views/screens/home_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/app/lib/src/views/screens/home_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/lib/modules/city/models/city_weather_model.dart" beforeDir="false" afterPath="$PROJECT_DIR$/shared/lib/modules/city/models/city_weather_model.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636778204672</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="city bloc complete">
+      <created>1636826815646</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1636826815646</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -194,7 +196,8 @@
     <MESSAGE value="small improvements" />
     <MESSAGE value="wrote tests for api" />
     <MESSAGE value="history logic added" />
-    <option name="LAST_COMMIT_MESSAGE" value="history logic added" />
+    <MESSAGE value="city bloc complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="city bloc complete" />
   </component>
   <component name="WindowStateProjectService">
     <state x="61" y="64" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1636629852598">
@@ -241,10 +244,10 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="108" y="53" key="SettingsEditor/0.0.1536.816@0.0.1536.816" timestamp="1636731874554" />
-    <state x="199" y="138" key="Vcs.Push.Dialog.v2" timestamp="1636727617877">
+    <state x="199" y="138" key="Vcs.Push.Dialog.v2" timestamp="1636826821780">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="199" y="138" key="Vcs.Push.Dialog.v2/0.0.1536.816@0.0.1536.816" timestamp="1636727617877" />
+    <state x="199" y="138" key="Vcs.Push.Dialog.v2/0.0.1536.816@0.0.1536.816" timestamp="1636826821780" />
     <state x="266" y="137" width="672" height="678" key="search.everywhere.popup" timestamp="1636732111282">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
