@@ -33,7 +33,7 @@ class _HistoryScreenState extends State<HistoryScreen> {
             if (state is HistoryLoading) {
               return const Loading();
             }
-            if (state is HistorySucess) {
+            if (state is HistorySuccess) {
               final historyWeather = state.hisWeather;
               return SafeArea(
                 child: Column(

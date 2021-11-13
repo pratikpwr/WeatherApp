@@ -44,7 +44,7 @@ class HistoryBloc extends Bloc<HistoryEvent, HistoryState> {
         final min = getMinTemp(historyData);
         final max = getMaxTemp(historyData);
         final icon = getIcon(historyData);
-        yield HistorySucess(
+        yield HistorySuccess(
             hisWeather: historyData, icon: icon, max: max, min: min);
       } catch (e) {
         yield HistoryFailed(e.toString());
@@ -119,7 +119,7 @@ List<int> fivePreviousDaysUnix() {
   List<int> days = [];
   final dtNow = DateTime.now();
 
-  for (int i = 0; i < daysLimit; i++) {
+  for (int i = 1; i <= daysLimit; i++) {
     final curDt = dtNow.subtract(Duration(days: i));
     final curUnix = getUnixFromDateTime(curDt);
     days.add(curUnix);

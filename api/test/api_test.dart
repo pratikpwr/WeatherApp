@@ -7,7 +7,6 @@ void main() {
   test('get location name using lat long', () async {
     Response response =
         await ApiSdk.getLocationName(lat: 20.8326608, long: 74.168528);
-    // token = response.data['token'];
     expect('Daregaon',
         response.data['results'][0]["address_components"][1]["long_name"]);
   });
@@ -17,9 +16,6 @@ void main() {
         long: 74.168528,
         unit: 'metric',
         exclude: 'minutely,hourly,daily');
-    // token = response.data['token'];
-    expect("Asia/Kolkata", response.data["timezone"]);
-    expect("Asia/Kolkata", response.data["timezone"]);
     expect("Asia/Kolkata", response.data["timezone"]);
   });
   test('get weather history', () async {
@@ -29,7 +25,11 @@ void main() {
         1000;
     Response response = await ApiSdk.oneCallHistoryApi(
         lat: 20.8326608, long: 74.168528, unit: 'metric', dt: curDt.toInt());
-    // token = response.data['token'];
     expect("Asia/Kolkata", response.data["timezone"]);
+  });
+  test('get city weather', () async {
+    Response response =
+        await ApiSdk.getCityWeather(unit: 'metric', city: 'nashik');
+    expect("Nashik", response.data["name"]);
   });
 }

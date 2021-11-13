@@ -8,7 +8,7 @@ class HoulyWeatherOfDayWidget extends StatefulWidget {
   const HoulyWeatherOfDayWidget(
       {Key? key, required this.state, required this.index})
       : super(key: key);
-  final HistorySucess state;
+  final HistorySuccess state;
   final int index;
   @override
   _HoulyWeatherOfDayWidgetState createState() =>

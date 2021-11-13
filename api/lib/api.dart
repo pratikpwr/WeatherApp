@@ -33,6 +33,15 @@ class ApiSdk {
     return response;
   }
 
+  static Future<Response> getCityWeather(
+      {required String city, required String unit}) async {
+    final query = "q=$city&appid=$apiKey&units=$unit";
+    final path = "$_baseUrl/weather?$query";
+
+    Response response = await _apiBaseHelper.get(path);
+    return response;
+  }
+
   static Future<Response> getLocationName({
     required double lat,
     required double long,
