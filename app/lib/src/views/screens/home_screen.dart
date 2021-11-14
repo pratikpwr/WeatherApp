@@ -136,7 +136,7 @@ class _HomeScreenState extends State<HomeScreen> {
               if (state.error == locationDisabledError) {
                 return Center(
                   child: Text(
-                    'Location services are disabled.\nPlease Restart after enabling it.',
+                    'Location services are disabled.\nPlease Restart app after enabling it.',
                     style: Styles.subTitleTextStyle(
                         fontSize: 18, fontWeight: FontWeight.w500),
                   ),

@@ -42,6 +42,7 @@ class FavScreen extends StatelessWidget {
         ),
         actions: [
           IconButton(
+            key: const ValueKey('refresh'),
               onPressed: () {
                 BlocProvider.of<CityWeatherBloc>(context)
                     .add(SearchCityWeather(_searchController.text));

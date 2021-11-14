@@ -19,217 +19,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51631b25-7640-4d9f-b40b-c74c078e5148" name="Default Changelist" comment="get city weather  done">
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/generated/source/buildConfig/debug/com/farmsetu/app/BuildConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/flutter/debug/.last_build_id" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/flutter/debug/flutter_assets/AssetManifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/flutter/debug/flutter_assets/FontManifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/flutter/debug/flutter_assets/NOTICES.Z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/flutter/debug/flutter_assets/assets/3d-resized/01d.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/flutter/debug/flutter_assets/assets/3d-resized/01n.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/flutter/debug/flutter_assets/assets/3d-resized/02d.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/flutter/debug/flutter_assets/assets/3d-resized/02n.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/flutter/debug/flutter_assets/assets/3d-resized/03d.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/flutter/debug/flutter_assets/assets/3d-resized/03n.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/flutter/debug/flutter_assets/assets/3d-resized/04d.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/flutter/debug/flutter_assets/assets/3d-resized/04n.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/flutter/debug/flutter_assets/assets/3d-resized/09d.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/flutter/debug/flutter_assets/assets/3d-resized/09n.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/flutter/debug/flutter_assets/assets/3d-resized/10d.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/flutter/debug/flutter_assets/assets/3d-resized/10n.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/flutter/debug/flutter_assets/assets/3d-resized/11d.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/flutter/debug/flutter_assets/assets/3d-resized/11n.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/flutter/debug/flutter_assets/assets/3d-resized/13d.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/flutter/debug/flutter_assets/assets/3d-resized/13n.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/flutter/debug/flutter_assets/assets/3d-resized/50d.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/flutter/debug/flutter_assets/assets/3d-resized/50n.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/flutter/debug/flutter_assets/assets/3d/01d.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/flutter/debug/flutter_assets/assets/3d/01n.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/flutter/debug/flutter_assets/assets/3d/02d.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/flutter/debug/flutter_assets/assets/3d/02n.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/flutter/debug/flutter_assets/assets/3d/03d.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/flutter/debug/flutter_assets/assets/3d/03n.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/flutter/debug/flutter_assets/assets/3d/04d.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/flutter/debug/flutter_assets/assets/3d/04n.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/flutter/debug/flutter_assets/assets/3d/09d.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/flutter/debug/flutter_assets/assets/3d/09n.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/flutter/debug/flutter_assets/assets/3d/10d.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/flutter/debug/flutter_assets/assets/3d/10n.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/flutter/debug/flutter_assets/assets/3d/11d.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/flutter/debug/flutter_assets/assets/3d/11n.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/flutter/debug/flutter_assets/assets/3d/13d.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/flutter/debug/flutter_assets/assets/3d/13n.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/flutter/debug/flutter_assets/assets/3d/50d.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/flutter/debug/flutter_assets/assets/3d/50n.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/flutter/debug/flutter_assets/fonts/MaterialIcons-Regular.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/flutter/debug/flutter_assets/isolate_snapshot_data" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/flutter/debug/flutter_assets/kernel_blob.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/flutter/debug/flutter_assets/vm_snapshot_data" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/flutter/debug/flutter_build.d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/flutter/debug/libs.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/incremental/mergeDebugAssets/merger.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged_assets/debug/out/flutter_assets/AssetManifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged_assets/debug/out/flutter_assets/FontManifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged_assets/debug/out/flutter_assets/NOTICES.Z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged_assets/debug/out/flutter_assets/assets/3d-resized/01d.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged_assets/debug/out/flutter_assets/assets/3d-resized/01n.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged_assets/debug/out/flutter_assets/assets/3d-resized/02d.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged_assets/debug/out/flutter_assets/assets/3d-resized/02n.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged_assets/debug/out/flutter_assets/assets/3d-resized/03d.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged_assets/debug/out/flutter_assets/assets/3d-resized/03n.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged_assets/debug/out/flutter_assets/assets/3d-resized/04d.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged_assets/debug/out/flutter_assets/assets/3d-resized/04n.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged_assets/debug/out/flutter_assets/assets/3d-resized/09d.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged_assets/debug/out/flutter_assets/assets/3d-resized/09n.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged_assets/debug/out/flutter_assets/assets/3d-resized/10d.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged_assets/debug/out/flutter_assets/assets/3d-resized/10n.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged_assets/debug/out/flutter_assets/assets/3d-resized/11d.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged_assets/debug/out/flutter_assets/assets/3d-resized/11n.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged_assets/debug/out/flutter_assets/assets/3d-resized/13d.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged_assets/debug/out/flutter_assets/assets/3d-resized/13n.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged_assets/debug/out/flutter_assets/assets/3d-resized/50d.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged_assets/debug/out/flutter_assets/assets/3d-resized/50n.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged_assets/debug/out/flutter_assets/assets/3d/01d.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged_assets/debug/out/flutter_assets/assets/3d/01n.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged_assets/debug/out/flutter_assets/assets/3d/02d.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged_assets/debug/out/flutter_assets/assets/3d/02n.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged_assets/debug/out/flutter_assets/assets/3d/03d.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged_assets/debug/out/flutter_assets/assets/3d/03n.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged_assets/debug/out/flutter_assets/assets/3d/04d.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged_assets/debug/out/flutter_assets/assets/3d/04n.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged_assets/debug/out/flutter_assets/assets/3d/09d.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged_assets/debug/out/flutter_assets/assets/3d/09n.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged_assets/debug/out/flutter_assets/assets/3d/10d.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged_assets/debug/out/flutter_assets/assets/3d/10n.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged_assets/debug/out/flutter_assets/assets/3d/11d.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged_assets/debug/out/flutter_assets/assets/3d/11n.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged_assets/debug/out/flutter_assets/assets/3d/13d.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged_assets/debug/out/flutter_assets/assets/3d/13n.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged_assets/debug/out/flutter_assets/assets/3d/50d.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged_assets/debug/out/flutter_assets/assets/3d/50n.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged_assets/debug/out/flutter_assets/fonts/MaterialIcons-Regular.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged_assets/debug/out/flutter_assets/isolate_snapshot_data" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged_assets/debug/out/flutter_assets/kernel_blob.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged_assets/debug/out/flutter_assets/vm_snapshot_data" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/processed_res/debug/out/output-metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/processed_res/debug/out/resources-debug.ap_" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/debug/drawable-v21_launch_background.xml.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/debug/values-af_values-af.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/debug/values-am_values-am.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/debug/values-ar_values-ar.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/debug/values-as_values-as.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/debug/values-az_values-az.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/debug/values-b+sr+Latn_values-b+sr+Latn.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/debug/values-be_values-be.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/debug/values-bg_values-bg.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/debug/values-bn_values-bn.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/debug/values-bs_values-bs.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/debug/values-ca_values-ca.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/debug/values-cs_values-cs.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/debug/values-da_values-da.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/debug/values-de_values-de.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/debug/values-el_values-el.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/debug/values-en-rAU_values-en-rAU.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/debug/values-en-rCA_values-en-rCA.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/debug/values-en-rGB_values-en-rGB.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/debug/values-en-rIN_values-en-rIN.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/debug/values-en-rXC_values-en-rXC.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/debug/values-es-rUS_values-es-rUS.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/debug/values-es_values-es.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/debug/values-et_values-et.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/debug/values-eu_values-eu.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/debug/values-fa_values-fa.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/debug/values-fi_values-fi.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/debug/values-fr-rCA_values-fr-rCA.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/debug/values-fr_values-fr.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/debug/values-gl_values-gl.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/debug/values-gu_values-gu.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/debug/values-hi_values-hi.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/debug/values-hr_values-hr.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/debug/values-hu_values-hu.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/debug/values-hy_values-hy.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/debug/values-in_values-in.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/debug/values-is_values-is.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/debug/values-it_values-it.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/debug/values-iw_values-iw.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/debug/values-ja_values-ja.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/debug/values-ka_values-ka.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/debug/values-kk_values-kk.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/debug/values-km_values-km.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/debug/values-kn_values-kn.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/debug/values-ko_values-ko.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/debug/values-ky_values-ky.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/debug/values-lo_values-lo.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/debug/values-lt_values-lt.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/debug/values-lv_values-lv.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/debug/values-mk_values-mk.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/debug/values-ml_values-ml.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/debug/values-mn_values-mn.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/debug/values-mr_values-mr.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/debug/values-ms_values-ms.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/debug/values-my_values-my.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/debug/values-nb_values-nb.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/debug/values-ne_values-ne.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/debug/values-night-v8_values-night-v8.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/debug/values-nl_values-nl.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/debug/values-or_values-or.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/debug/values-pa_values-pa.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/debug/values-pl_values-pl.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/debug/values-pt-rBR_values-pt-rBR.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/debug/values-pt-rPT_values-pt-rPT.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/debug/values-pt_values-pt.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/debug/values-ro_values-ro.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/debug/values-ru_values-ru.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/debug/values-si_values-si.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/debug/values-sk_values-sk.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/debug/values-sl_values-sl.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/debug/values-sq_values-sq.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/debug/values-sr_values-sr.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/debug/values-sv_values-sv.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/debug/values-sw_values-sw.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/debug/values-ta_values-ta.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/debug/values-te_values-te.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/debug/values-th_values-th.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/debug/values-tl_values-tl.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/debug/values-tr_values-tr.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/debug/values-uk_values-uk.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/debug/values-ur_values-ur.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/debug/values-uz_values-uz.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/debug/values-v16_values-v16.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/debug/values-v21_values-v21.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/debug/values-vi_values-vi.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/debug/values-zh-rCN_values-zh-rCN.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/debug/values-zh-rHK_values-zh-rHK.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/debug/values-zh-rTW_values-zh-rTW.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/debug/values-zu_values-zu.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/debug/values_values.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/runtime_symbol_list/debug/R.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/outputs/apk/debug/app-debug.apk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/outputs/apk/debug/output-metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/tmp/kotlin-classes/debug/META-INF/app_debug.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/test/unit_test.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
+    <list default="true" id="51631b25-7640-4d9f-b40b-c74c078e5148" name="Default Changelist" comment="location error handle">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/src/config/string_const.dart" beforeDir="false" afterPath="$PROJECT_DIR$/app/lib/src/config/string_const.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/src/utils/utils.dart" beforeDir="false" afterPath="$PROJECT_DIR$/app/lib/src/utils/utils.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/android/app/build/intermediates/flutter/debug/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/flutter/debug/flutter_assets/kernel_blob.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/android/app/build/intermediates/flutter/debug/flutter_build.d" beforeDir="false" afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/flutter/debug/flutter_build.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/android/app/build/intermediates/merged_assets/debug/out/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged_assets/debug/out/flutter_assets/kernel_blob.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/android/app/build/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/android/app/build/outputs/apk/debug/app-debug.apk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/lib/src/views/screens/fav_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/app/lib/src/views/screens/fav_screen.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/src/views/screens/history_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/app/lib/src/views/screens/history_screen.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/lib/src/views/screens/home_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/app/lib/src/views/screens/home_screen.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/app/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/app/pubspec.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/test/widget_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/app/test/widget_test.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/lib/modules/home/bloc/home_bloc.dart" beforeDir="false" afterPath="$PROJECT_DIR$/shared/lib/modules/home/bloc/home_bloc.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/lib/modules/home/bloc/home_event.dart" beforeDir="false" afterPath="$PROJECT_DIR$/shared/lib/modules/home/bloc/home_event.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/lib/modules/home/bloc/home_state.dart" beforeDir="false" afterPath="$PROJECT_DIR$/shared/lib/modules/home/bloc/home_state.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/lib/modules/home/models/weather_one_call_model.dart" beforeDir="false" afterPath="$PROJECT_DIR$/shared/lib/modules/home/models/weather_one_call_model.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -277,14 +75,9 @@
       <option name="filePath" value="$PROJECT_DIR$/app/lib/main.dart" />
       <method v="2" />
     </configuration>
-    <configuration name="get location name using lat long" type="FlutterTestConfigType" factoryName="Flutter Test" temporary="true" nameIsGenerated="true">
-      <option name="testName" value="get location name using lat long" />
-      <option name="testFile" value="$PROJECT_DIR$/api/test/api_test.dart" />
-      <method v="2" />
-    </configuration>
-    <configuration name="get weather history" type="FlutterTestConfigType" factoryName="Flutter Test" temporary="true" nameIsGenerated="true">
-      <option name="testName" value="get weather history" />
-      <option name="testFile" value="$PROJECT_DIR$/api/test/api_test.dart" />
+    <configuration name="City weather is loaded State" type="FlutterTestConfigType" factoryName="Flutter Test" temporary="true" nameIsGenerated="true">
+      <option name="testName" value="City weather is loaded State" />
+      <option name="testFile" value="$PROJECT_DIR$/app/test/widget_test.dart" />
       <method v="2" />
     </configuration>
     <configuration name="getTimeInHHMM test" type="FlutterTestConfigType" factoryName="Flutter Test" temporary="true" nameIsGenerated="true">
@@ -300,13 +93,17 @@
       <option name="testFile" value="$PROJECT_DIR$/app/test/unit_test.dart" />
       <method v="2" />
     </configuration>
+    <configuration name="tests in widget_test.dart" type="FlutterTestConfigType" factoryName="Flutter Test" temporary="true" nameIsGenerated="true">
+      <option name="testFile" value="$PROJECT_DIR$/app/test/widget_test.dart" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Flutter Test.tests in widget_test.dart" />
+        <item itemvalue="Flutter Test.City weather is loaded State" />
         <item itemvalue="Flutter Test.tests in unit_test.dart" />
         <item itemvalue="Flutter Test.getTimeInHHMM test" />
         <item itemvalue="Flutter Test.tests in api_test.dart" />
-        <item itemvalue="Flutter Test.get weather history" />
-        <item itemvalue="Flutter Test.get location name using lat long" />
       </list>
     </recent_temporary>
   </component>
@@ -391,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636831765720</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="location error handle">
+      <created>1636884433464</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1636884433464</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -418,7 +222,8 @@
     <MESSAGE value="history logic added" />
     <MESSAGE value="city bloc complete" />
     <MESSAGE value="get city weather  done" />
-    <option name="LAST_COMMIT_MESSAGE" value="get city weather  done" />
+    <MESSAGE value="location error handle" />
+    <option name="LAST_COMMIT_MESSAGE" value="location error handle" />
   </component>
   <component name="WindowStateProjectService">
     <state x="61" y="64" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1636629852598">
@@ -445,22 +250,22 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="387" y="164" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1636781232056" />
-    <state width="1152" height="175" key="GridCell.Tab.0.bottom" timestamp="1636883646916">
+    <state width="1152" height="175" key="GridCell.Tab.0.bottom" timestamp="1636888752992">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1152" height="175" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1636883646916" />
-    <state width="1152" height="175" key="GridCell.Tab.0.center" timestamp="1636883646915">
+    <state width="1152" height="175" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1636888752992" />
+    <state width="1152" height="175" key="GridCell.Tab.0.center" timestamp="1636888752992">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1152" height="175" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1636883646915" />
-    <state width="1152" height="175" key="GridCell.Tab.0.left" timestamp="1636883646915">
+    <state width="1152" height="175" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1636888752992" />
+    <state width="1152" height="175" key="GridCell.Tab.0.left" timestamp="1636888752992">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1152" height="175" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1636883646915" />
-    <state width="1152" height="175" key="GridCell.Tab.0.right" timestamp="1636883646916">
+    <state width="1152" height="175" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1636888752992" />
+    <state width="1152" height="175" key="GridCell.Tab.0.right" timestamp="1636888752992">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1152" height="175" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1636883646916" />
+    <state width="1152" height="175" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1636888752992" />
     <state x="301" y="29" key="RollbackChangesDialog" timestamp="1636880786691">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
@@ -469,10 +274,10 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="108" y="53" key="SettingsEditor/0.0.1536.816@0.0.1536.816" timestamp="1636731874554" />
-    <state x="199" y="138" key="Vcs.Push.Dialog.v2" timestamp="1636831773164">
+    <state x="199" y="138" key="Vcs.Push.Dialog.v2" timestamp="1636884452063">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="199" y="138" key="Vcs.Push.Dialog.v2/0.0.1536.816@0.0.1536.816" timestamp="1636831773164" />
+    <state x="199" y="138" key="Vcs.Push.Dialog.v2/0.0.1536.816@0.0.1536.816" timestamp="1636884452063" />
     <state x="266" y="137" width="672" height="678" key="search.everywhere.popup" timestamp="1636732111282">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
