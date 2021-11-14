@@ -17,14 +17,12 @@
 ## Screenshots
 <br/>
 
-<img src="https://github.com/pratikpwr/WeatherApp/blob/master/screenshots/home-sunny.png">
-<img src="https://github.com/pratikpwr/WeatherApp/blob/master/screenshots/home-details.png">
+<img src="https://github.com/pratikpwr/WeatherApp/blob/master/screenshots/home-sunny.png"><img src="https://github.com/pratikpwr/WeatherApp/blob/master/screenshots/home-details.png">
 
 <br/>
 <br/>
 
-<img src="https://github.com/pratikpwr/WeatherApp/blob/master/screenshots/search.png">
-<img src="https://github.com/pratikpwr/WeatherApp/blob/master/screenshots/history.png">
+<img src="https://github.com/pratikpwr/WeatherApp/blob/master/screenshots/search.png"><img src="https://github.com/pratikpwr/WeatherApp/blob/master/screenshots/history.png">
 
 <br/>
 
