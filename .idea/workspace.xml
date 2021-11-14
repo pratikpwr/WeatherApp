@@ -19,446 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51631b25-7640-4d9f-b40b-c74c078e5148" name="Default Changelist" comment="final before submission">
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/generated/source/buildConfig/release/com/farmsetu/app/BuildConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/aapt_proguard_file/release/aapt_rules.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/release/R.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/flutter/release/.last_build_id" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/flutter/release/arm64-v8a/app.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/flutter/release/armeabi-v7a/app.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/flutter/release/flutter_assets/AssetManifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/flutter/release/flutter_assets/FontManifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/flutter/release/flutter_assets/NOTICES.Z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/flutter/release/flutter_assets/assets/3d-resized/01d.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/flutter/release/flutter_assets/assets/3d-resized/01n.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/flutter/release/flutter_assets/assets/3d-resized/02d.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/flutter/release/flutter_assets/assets/3d-resized/02n.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/flutter/release/flutter_assets/assets/3d-resized/03d.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/flutter/release/flutter_assets/assets/3d-resized/03n.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/flutter/release/flutter_assets/assets/3d-resized/04d.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/flutter/release/flutter_assets/assets/3d-resized/04n.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/flutter/release/flutter_assets/assets/3d-resized/09d.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/flutter/release/flutter_assets/assets/3d-resized/09n.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/flutter/release/flutter_assets/assets/3d-resized/10d.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/flutter/release/flutter_assets/assets/3d-resized/10n.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/flutter/release/flutter_assets/assets/3d-resized/11d.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/flutter/release/flutter_assets/assets/3d-resized/11n.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/flutter/release/flutter_assets/assets/3d-resized/13d.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/flutter/release/flutter_assets/assets/3d-resized/13n.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/flutter/release/flutter_assets/assets/3d-resized/50d.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/flutter/release/flutter_assets/assets/3d-resized/50n.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/flutter/release/flutter_assets/assets/3d/01d.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/flutter/release/flutter_assets/assets/3d/01n.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/flutter/release/flutter_assets/assets/3d/02d.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/flutter/release/flutter_assets/assets/3d/02n.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/flutter/release/flutter_assets/assets/3d/03d.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/flutter/release/flutter_assets/assets/3d/03n.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/flutter/release/flutter_assets/assets/3d/04d.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/flutter/release/flutter_assets/assets/3d/04n.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/flutter/release/flutter_assets/assets/3d/09d.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/flutter/release/flutter_assets/assets/3d/09n.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/flutter/release/flutter_assets/assets/3d/10d.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/flutter/release/flutter_assets/assets/3d/10n.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/flutter/release/flutter_assets/assets/3d/11d.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/flutter/release/flutter_assets/assets/3d/11n.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/flutter/release/flutter_assets/assets/3d/13d.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/flutter/release/flutter_assets/assets/3d/13n.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/flutter/release/flutter_assets/assets/3d/50d.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/flutter/release/flutter_assets/assets/3d/50n.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/flutter/release/flutter_assets/fonts/MaterialIcons-Regular.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/flutter/release/flutter_build.d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/flutter/release/libs.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/flutter/release/x86_64/app.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/incremental/mergeReleaseAssets/merger.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/color/common_google_signin_btn_text_dark.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/color/common_google_signin_btn_text_light.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/color/common_google_signin_btn_tint.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/drawable-hdpi-v4/common_full_open_on_phone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/drawable-hdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/drawable-hdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/drawable-hdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/drawable-hdpi-v4/common_google_signin_btn_text_light_normal_background.9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/drawable-hdpi-v4/googleg_disabled_color_18.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/drawable-hdpi-v4/googleg_standard_color_18.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/drawable-hdpi-v4/notification_bg_low_normal.9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/drawable-hdpi-v4/notification_bg_low_pressed.9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/drawable-hdpi-v4/notification_bg_normal.9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/drawable-hdpi-v4/notification_bg_normal_pressed.9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/drawable-hdpi-v4/notify_panel_notification_icon_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/drawable-mdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/drawable-mdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/drawable-mdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/drawable-mdpi-v4/common_google_signin_btn_text_light_normal_background.9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/drawable-mdpi-v4/googleg_disabled_color_18.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/drawable-mdpi-v4/googleg_standard_color_18.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/drawable-mdpi-v4/notification_bg_low_normal.9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/drawable-mdpi-v4/notification_bg_low_pressed.9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/drawable-mdpi-v4/notification_bg_normal.9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/drawable-mdpi-v4/notification_bg_normal_pressed.9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/drawable-mdpi-v4/notify_panel_notification_icon_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/drawable-v21/launch_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/drawable-v21/notification_action_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/drawable-xhdpi-v4/common_full_open_on_phone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/drawable-xhdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/drawable-xhdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/drawable-xhdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/drawable-xhdpi-v4/common_google_signin_btn_text_light_normal_background.9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/drawable-xhdpi-v4/googleg_disabled_color_18.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/drawable-xhdpi-v4/googleg_standard_color_18.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/drawable-xhdpi-v4/notification_bg_low_normal.9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/drawable-xhdpi-v4/notification_bg_low_pressed.9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/drawable-xhdpi-v4/notification_bg_normal.9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/drawable-xxhdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/drawable-xxhdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/drawable-xxhdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/drawable-xxhdpi-v4/common_google_signin_btn_text_light_normal_background.9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/drawable-xxhdpi-v4/googleg_disabled_color_18.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/drawable-xxhdpi-v4/googleg_standard_color_18.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/drawable/common_google_signin_btn_icon_dark.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/drawable/common_google_signin_btn_icon_dark_focused.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/drawable/common_google_signin_btn_icon_dark_normal.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/drawable/common_google_signin_btn_icon_disabled.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/drawable/common_google_signin_btn_icon_light.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/drawable/common_google_signin_btn_icon_light_focused.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/drawable/common_google_signin_btn_icon_light_normal.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/drawable/common_google_signin_btn_text_dark.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/drawable/common_google_signin_btn_text_dark_focused.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/drawable/common_google_signin_btn_text_dark_normal.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/drawable/common_google_signin_btn_text_disabled.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/drawable/common_google_signin_btn_text_light.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/drawable/common_google_signin_btn_text_light_focused.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/drawable/common_google_signin_btn_text_light_normal.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/drawable/notification_bg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/drawable/notification_bg_low.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/drawable/notification_icon_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/drawable/notification_tile_bg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/layout-v21/notification_action.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/layout-v21/notification_action_tombstone.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/layout-v21/notification_template_custom_big.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/layout-v21/notification_template_icon_group.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/layout/custom_dialog.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/layout/notification_template_part_chronometer.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/layout/notification_template_part_time.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/mipmap-hdpi-v4/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/mipmap-mdpi-v4/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/mipmap-xhdpi-v4/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/mipmap-xxhdpi-v4/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/mipmap-xxxhdpi-v4/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/values-af/values-af.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/values-am/values-am.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/values-ar/values-ar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/values-as/values-as.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/values-az/values-az.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/values-b+sr+Latn/values-b+sr+Latn.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/values-be/values-be.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/values-bg/values-bg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/values-bn/values-bn.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/values-bs/values-bs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/values-ca/values-ca.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/values-cs/values-cs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/values-da/values-da.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/values-de/values-de.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/values-el/values-el.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/values-en-rAU/values-en-rAU.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/values-en-rCA/values-en-rCA.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/values-en-rGB/values-en-rGB.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/values-en-rIN/values-en-rIN.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/values-en-rXC/values-en-rXC.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/values-es-rUS/values-es-rUS.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/values-es/values-es.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/values-et/values-et.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/values-eu/values-eu.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/values-fa/values-fa.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/values-fi/values-fi.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/values-fr-rCA/values-fr-rCA.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/values-fr/values-fr.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/values-gl/values-gl.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/values-gu/values-gu.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/values-hi/values-hi.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/values-hr/values-hr.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/values-hu/values-hu.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/values-hy/values-hy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/values-in/values-in.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/values-is/values-is.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/values-it/values-it.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/values-iw/values-iw.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/values-ja/values-ja.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/values-ka/values-ka.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/values-kk/values-kk.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/values-km/values-km.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/values-kn/values-kn.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/values-ko/values-ko.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/values-ky/values-ky.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/values-lo/values-lo.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/values-lt/values-lt.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/values-lv/values-lv.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/values-mk/values-mk.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/values-ml/values-ml.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/values-mn/values-mn.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/values-mr/values-mr.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/values-ms/values-ms.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/values-my/values-my.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/values-nb/values-nb.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/values-ne/values-ne.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/values-night-v8/values-night-v8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/values-nl/values-nl.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/values-or/values-or.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/values-pa/values-pa.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/values-pl/values-pl.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/values-pt-rBR/values-pt-rBR.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/values-pt-rPT/values-pt-rPT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/values-pt/values-pt.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/values-ro/values-ro.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/values-ru/values-ru.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/values-si/values-si.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/values-sk/values-sk.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/values-sl/values-sl.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/values-sq/values-sq.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/values-sr/values-sr.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/values-sv/values-sv.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/values-sw/values-sw.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/values-ta/values-ta.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/values-te/values-te.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/values-th/values-th.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/values-tl/values-tl.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/values-tr/values-tr.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/values-uk/values-uk.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/values-ur/values-ur.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/values-uz/values-uz.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/values-v16/values-v16.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/values-v21/values-v21.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/values-vi/values-vi.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/values-zh-rCN/values-zh-rCN.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/values-zh-rHK/values-zh-rHK.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/values-zh-rTW/values-zh-rTW.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/values-zu/values-zu.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged-not-compiled-resources/release/values/values.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged_assets/release/out/flutter_assets/AssetManifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged_assets/release/out/flutter_assets/FontManifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged_assets/release/out/flutter_assets/NOTICES.Z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged_assets/release/out/flutter_assets/assets/3d-resized/01d.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged_assets/release/out/flutter_assets/assets/3d-resized/01n.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged_assets/release/out/flutter_assets/assets/3d-resized/02d.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged_assets/release/out/flutter_assets/assets/3d-resized/02n.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged_assets/release/out/flutter_assets/assets/3d-resized/03d.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged_assets/release/out/flutter_assets/assets/3d-resized/03n.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged_assets/release/out/flutter_assets/assets/3d-resized/04d.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged_assets/release/out/flutter_assets/assets/3d-resized/04n.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged_assets/release/out/flutter_assets/assets/3d-resized/09d.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged_assets/release/out/flutter_assets/assets/3d-resized/09n.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged_assets/release/out/flutter_assets/assets/3d-resized/10d.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged_assets/release/out/flutter_assets/assets/3d-resized/10n.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged_assets/release/out/flutter_assets/assets/3d-resized/11d.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged_assets/release/out/flutter_assets/assets/3d-resized/11n.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged_assets/release/out/flutter_assets/assets/3d-resized/13d.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged_assets/release/out/flutter_assets/assets/3d-resized/13n.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged_assets/release/out/flutter_assets/assets/3d-resized/50d.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged_assets/release/out/flutter_assets/assets/3d-resized/50n.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged_assets/release/out/flutter_assets/assets/3d/01d.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged_assets/release/out/flutter_assets/assets/3d/01n.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged_assets/release/out/flutter_assets/assets/3d/02d.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged_assets/release/out/flutter_assets/assets/3d/02n.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged_assets/release/out/flutter_assets/assets/3d/03d.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged_assets/release/out/flutter_assets/assets/3d/03n.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged_assets/release/out/flutter_assets/assets/3d/04d.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged_assets/release/out/flutter_assets/assets/3d/04n.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged_assets/release/out/flutter_assets/assets/3d/09d.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged_assets/release/out/flutter_assets/assets/3d/09n.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged_assets/release/out/flutter_assets/assets/3d/10d.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged_assets/release/out/flutter_assets/assets/3d/10n.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged_assets/release/out/flutter_assets/assets/3d/11d.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged_assets/release/out/flutter_assets/assets/3d/11n.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged_assets/release/out/flutter_assets/assets/3d/13d.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged_assets/release/out/flutter_assets/assets/3d/13n.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged_assets/release/out/flutter_assets/assets/3d/50d.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged_assets/release/out/flutter_assets/assets/3d/50n.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/merged_assets/release/out/flutter_assets/fonts/MaterialIcons-Regular.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/packaged_manifests/release/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/packaged_manifests/release/output-metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/processed_res/release/out/output-metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/processed_res/release/out/resources-release.ap_" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/color_common_google_signin_btn_text_dark.xml.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/color_common_google_signin_btn_text_light.xml.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/color_common_google_signin_btn_tint.xml.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/drawable-hdpi-v4_common_full_open_on_phone.png.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/drawable-hdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/drawable-hdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/drawable-hdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/drawable-hdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/drawable-hdpi-v4_googleg_disabled_color_18.png.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/drawable-hdpi-v4_googleg_standard_color_18.png.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/drawable-hdpi-v4_notification_bg_low_normal.9.png.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/drawable-hdpi-v4_notification_bg_low_pressed.9.png.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/drawable-hdpi-v4_notification_bg_normal.9.png.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/drawable-hdpi-v4_notification_bg_normal_pressed.9.png.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/drawable-hdpi-v4_notify_panel_notification_icon_bg.png.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/drawable-mdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/drawable-mdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/drawable-mdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/drawable-mdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/drawable-mdpi-v4_googleg_disabled_color_18.png.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/drawable-mdpi-v4_googleg_standard_color_18.png.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/drawable-mdpi-v4_notification_bg_low_normal.9.png.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/drawable-mdpi-v4_notification_bg_low_pressed.9.png.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/drawable-mdpi-v4_notification_bg_normal.9.png.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/drawable-mdpi-v4_notification_bg_normal_pressed.9.png.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/drawable-mdpi-v4_notify_panel_notification_icon_bg.png.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/drawable-v21_launch_background.xml.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/drawable-v21_notification_action_background.xml.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/drawable-xhdpi-v4_common_full_open_on_phone.png.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/drawable-xhdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/drawable-xhdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/drawable-xhdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/drawable-xhdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/drawable-xhdpi-v4_googleg_disabled_color_18.png.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/drawable-xhdpi-v4_googleg_standard_color_18.png.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/drawable-xhdpi-v4_notification_bg_low_normal.9.png.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/drawable-xhdpi-v4_notification_bg_low_pressed.9.png.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/drawable-xhdpi-v4_notification_bg_normal.9.png.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/drawable-xhdpi-v4_notification_bg_normal_pressed.9.png.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/drawable-xhdpi-v4_notify_panel_notification_icon_bg.png.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4_googleg_disabled_color_18.png.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4_googleg_standard_color_18.png.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/drawable_common_google_signin_btn_icon_dark.xml.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/drawable_common_google_signin_btn_icon_dark_focused.xml.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/drawable_common_google_signin_btn_icon_dark_normal.xml.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/drawable_common_google_signin_btn_icon_disabled.xml.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/drawable_common_google_signin_btn_icon_light.xml.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/drawable_common_google_signin_btn_icon_light_focused.xml.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/drawable_common_google_signin_btn_icon_light_normal.xml.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/drawable_common_google_signin_btn_text_dark.xml.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/drawable_common_google_signin_btn_text_dark_focused.xml.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/drawable_common_google_signin_btn_text_dark_normal.xml.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/drawable_common_google_signin_btn_text_disabled.xml.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/drawable_common_google_signin_btn_text_light.xml.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/drawable_common_google_signin_btn_text_light_focused.xml.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/drawable_common_google_signin_btn_text_light_normal.xml.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/drawable_notification_bg.xml.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/drawable_notification_bg_low.xml.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/drawable_notification_icon_background.xml.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/drawable_notification_tile_bg.xml.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/layout-v21_notification_action.xml.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/layout-v21_notification_action_tombstone.xml.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/layout-v21_notification_template_custom_big.xml.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/layout-v21_notification_template_icon_group.xml.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/layout_custom_dialog.xml.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/layout_notification_template_part_chronometer.xml.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/layout_notification_template_part_time.xml.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/mipmap-hdpi_ic_launcher.png.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/mipmap-mdpi_ic_launcher.png.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/mipmap-xhdpi_ic_launcher.png.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/mipmap-xxhdpi_ic_launcher.png.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/mipmap-xxxhdpi_ic_launcher.png.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/values-af_values-af.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/values-am_values-am.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/values-ar_values-ar.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/values-as_values-as.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/values-az_values-az.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/values-b+sr+Latn_values-b+sr+Latn.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/values-be_values-be.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/values-bg_values-bg.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/values-bn_values-bn.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/values-bs_values-bs.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/values-ca_values-ca.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/values-cs_values-cs.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/values-da_values-da.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/values-de_values-de.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/values-el_values-el.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/values-en-rAU_values-en-rAU.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/values-en-rCA_values-en-rCA.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/values-en-rGB_values-en-rGB.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/values-en-rIN_values-en-rIN.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/values-en-rXC_values-en-rXC.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/values-es-rUS_values-es-rUS.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/values-es_values-es.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/values-et_values-et.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/values-eu_values-eu.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/values-fa_values-fa.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/values-fi_values-fi.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/values-fr-rCA_values-fr-rCA.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/values-fr_values-fr.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/values-gl_values-gl.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/values-gu_values-gu.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/values-hi_values-hi.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/values-hr_values-hr.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/values-hu_values-hu.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/values-hy_values-hy.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/values-in_values-in.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/values-is_values-is.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/values-it_values-it.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/values-iw_values-iw.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/values-ja_values-ja.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/values-ka_values-ka.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/values-kk_values-kk.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/values-km_values-km.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/values-kn_values-kn.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/values-ko_values-ko.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/values-ky_values-ky.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/values-lo_values-lo.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/values-lt_values-lt.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/values-lv_values-lv.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/values-mk_values-mk.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/values-ml_values-ml.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/values-mn_values-mn.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/values-mr_values-mr.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/values-ms_values-ms.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/values-my_values-my.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/values-nb_values-nb.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/values-ne_values-ne.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/values-night-v8_values-night-v8.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/values-nl_values-nl.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/values-or_values-or.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/values-pa_values-pa.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/values-pl_values-pl.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/values-pt-rBR_values-pt-rBR.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/values-pt-rPT_values-pt-rPT.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/values-pt_values-pt.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/values-ro_values-ro.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/values-ru_values-ru.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/values-si_values-si.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/values-sk_values-sk.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/values-sl_values-sl.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/values-sq_values-sq.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/values-sr_values-sr.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/values-sv_values-sv.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/values-sw_values-sw.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/values-ta_values-ta.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/values-te_values-te.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/values-th_values-th.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/values-tl_values-tl.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/values-tr_values-tr.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/values-uk_values-uk.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/values-ur_values-ur.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/values-uz_values-uz.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/values-v16_values-v16.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/values-v21_values-v21.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/values-vi_values-vi.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/values-zh-rCN_values-zh-rCN.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/values-zh-rHK_values-zh-rHK.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/values-zh-rTW_values-zh-rTW.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/values-zu_values-zu.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/res/merged/release/values_values.arsc.flat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/runtime_symbol_list/release/R.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/intermediates/symbol_list_with_package_name/release/package-aware-r.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/outputs/apk/release/app-release.apk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/outputs/apk/release/output-metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/outputs/logs/manifest-merger-release-report.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/reports/lint-results-release-fatal.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/reports/lint-results-release-fatal.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/android/app/build/tmp/kotlin-classes/release/META-INF/app_release.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/history.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/home-cloudy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/home-details.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/home-sunny.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/search.png" afterDir="false" />
+    <list default="true" id="51631b25-7640-4d9f-b40b-c74c078e5148" name="Default Changelist" comment="README.md update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -634,8 +196,25 @@
       <option name="project" value="LOCAL" />
       <updated>1636889452409</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="README.md update">
+      <created>1636891476356</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1636891476356</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -663,7 +242,8 @@
     <MESSAGE value="get city weather  done" />
     <MESSAGE value="location error handle" />
     <MESSAGE value="final before submission" />
-    <option name="LAST_COMMIT_MESSAGE" value="final before submission" />
+    <MESSAGE value="README.md update" />
+    <option name="LAST_COMMIT_MESSAGE" value="README.md update" />
   </component>
   <component name="WindowStateProjectService">
     <state x="61" y="64" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1636629852598">
@@ -686,6 +266,10 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state width="572" height="618" key="DebuggerActiveHint/0.0.1536.816@0.0.1536.816" timestamp="1636694446881" />
+    <state x="94" y="100" width="1012" height="622" key="DiffContextDialog" timestamp="1636892492058">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="94" y="100" width="1012" height="622" key="DiffContextDialog/0.0.1536.816@0.0.1536.816" timestamp="1636892492058" />
     <state x="387" y="164" key="FileChooserDialogImpl" timestamp="1636781232056">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
@@ -714,10 +298,14 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="108" y="53" key="SettingsEditor/0.0.1536.816@0.0.1536.816" timestamp="1636731874554" />
-    <state x="199" y="138" key="Vcs.Push.Dialog.v2" timestamp="1636889458672">
+    <state x="199" y="138" key="Vcs.Push.Dialog.v2" timestamp="1636891493025">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="199" y="138" key="Vcs.Push.Dialog.v2/0.0.1536.816@0.0.1536.816" timestamp="1636889458672" />
+    <state x="199" y="138" key="Vcs.Push.Dialog.v2/0.0.1536.816@0.0.1536.816" timestamp="1636891493025" />
+    <state x="402" y="321" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1636892161946">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="402" y="321" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.816@0.0.1536.816" timestamp="1636892161946" />
     <state x="266" y="137" width="672" height="678" key="search.everywhere.popup" timestamp="1636732111282">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
