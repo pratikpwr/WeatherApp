@@ -20,7 +20,7 @@ class FavScreen extends StatelessWidget {
         // centerTitle: true,
         backgroundColor: ColorConstants.lightScaffoldBackgroundColor,
         title: SizedBox(
-          width: _size.width * 0.4,
+          width: _size.width * 0.7,
           child: TextField(
             controller: _searchController,
             style: Styles.titleTextStyle(fontSize: 18),
@@ -40,6 +40,18 @@ class FavScreen extends StatelessWidget {
             ),
           ),
         ),
+        actions: [
+          IconButton(
+              onPressed: () {
+                BlocProvider.of<CityWeatherBloc>(context)
+                    .add(SearchCityWeather(_searchController.text));
+              },
+              icon: Icon(
+                Icons.refresh,
+                size: 28,
+                color: ColorConstants.iconColor,
+              ))
+        ],
       ),
       body: BlocListener<CityWeatherBloc, CityWeatherState>(
         listener: (context, state) {
@@ -49,6 +61,28 @@ class FavScreen extends StatelessWidget {
         },
         child: BlocBuilder<CityWeatherBloc, CityWeatherState>(
           builder: (context, state) {
+            if (state is CityWeatherInitial) {
+              return Container(
+                height: _size.height * 0.8,
+                alignment: Alignment.center,
+                child: Column(
+                  mainAxisSize: MainAxisSize.min,
+                  children: [
+                    Image.asset(
+                      'assets/3d/02d.png',
+                      height: _size.height * 0.25,
+                    ),
+                    spacer(),
+                    Text(
+                      'Search the weather \nof the city you want !',
+                      textAlign: TextAlign.center,
+                      style: Styles.titleTextStyle(
+                          fontSize: 28, fontWeight: FontWeight.w700),
+                    ),
+                  ],
+                ),
+              );
+            }
             if (state is CityWeatherLoading) {
               return const Loading();
             }
@@ -134,27 +168,12 @@ class FavScreen extends StatelessWidget {
                   ),
                 ),
               );
-            } else {
-              return Container(
-                height: _size.height * 0.8,
-                alignment: Alignment.center,
-                child: Column(
-                  mainAxisSize: MainAxisSize.min,
-                  children: [
-                    Image.asset(
-                      'assets/3d/02d.png',
-                      height: _size.height * 0.25,
-                    ),
-                    spacer(),
-                    Text(
-                      'Search the weather \nof the city you want !',
-                      textAlign: TextAlign.center,
-                      style: Styles.titleTextStyle(
-                          fontSize: 28, fontWeight: FontWeight.w700),
-                    ),
-                  ],
-                ),
-              );
+            }
+            if( state is CityWeatherFailed){
+              return const SomethingWentWrong();
+            }
+            else {
+              return const SizedBox();
             }
           },
         ),

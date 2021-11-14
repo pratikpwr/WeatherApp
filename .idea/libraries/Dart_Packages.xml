@@ -2,6 +2,13 @@
   <library name="Dart Packages" type="DartPackagesLibraryType">
     <properties>
       <option name="packageNameToDirsMap">
+        <entry key="android_intent">
+          <value>
+            <list>
+              <option value="$PROJECT_DIR$/../../../../flutter/.pub-cache/hosted/pub.dartlang.org/android_intent-2.0.2/lib" />
+            </list>
+          </value>
+        </entry>
         <entry key="async">
           <value>
             <list>
@@ -446,6 +453,7 @@
       </option>
     </properties>
     <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../../../flutter/.pub-cache/hosted/pub.dartlang.org/android_intent-2.0.2/lib" />
       <root url="file://$PROJECT_DIR$/../../../../flutter/.pub-cache/hosted/pub.dartlang.org/async-2.8.2/lib" />
       <root url="file://$PROJECT_DIR$/../../../../flutter/.pub-cache/hosted/pub.dartlang.org/bloc-7.2.1/lib" />
       <root url="file://$PROJECT_DIR$/../../../../flutter/.pub-cache/hosted/pub.dartlang.org/boolean_selector-2.1.0/lib" />

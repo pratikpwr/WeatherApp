@@ -29,3 +29,12 @@ class HomeFailed extends HomeState {
   @override
   List<Object> get props => [error];
 }
+
+class HomeLocationNotEnabled extends HomeState {
+  final String error;
+
+  const HomeLocationNotEnabled(this.error);
+
+  @override
+  List<Object> get props => [error];
+}

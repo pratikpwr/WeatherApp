@@ -14,6 +14,9 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
+  double? lat;
+  double? long;
+
   @override
   void initState() {
     super.initState();
@@ -21,9 +24,17 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   getLocation() async {
-    Position pos = await determinePosition();
-    BlocProvider.of<HomeBloc>(context)
-        .add(GetHomeData(lat: 20.8326608, long: 74.168528));
+    try {
+      Position pos = await determinePosition();
+      // GetHomeData(lat: 20.8326608, long: 74.168528)
+      lat = pos.latitude;
+      long = pos.longitude;
+      BlocProvider.of<HomeBloc>(context)
+          .add(GetHomeData(lat: lat!, long: long!));
+    } catch (err) {
+      showSnackBar(context, err.toString());
+      BlocProvider.of<HomeBloc>(context).add(LocationError(err.toString()));
+    }
   }
 
   @override
@@ -61,7 +72,8 @@ class _HomeScreenState extends State<HomeScreen> {
                                 height: _size.height * 0.45,
                               ),
                             ),
-                            Padding(
+                            Container(
+                              width: _size.width * 0.5,
                               padding: EdgeInsets.symmetric(
                                   horizontal: _size.width * 0.08,
                                   vertical: _size.height * 0.07),
@@ -118,6 +130,18 @@ class _HomeScreenState extends State<HomeScreen> {
               );
             }
             if (state is HomeFailed) {
+              return SomethingWentWrong(message: state.error);
+            }
+            if (state is HomeLocationNotEnabled) {
+              if (state.error == locationDisabledError) {
+                return Center(
+                  child: Text(
+                    'Location services are disabled.\nPlease Restart after enabling it.',
+                    style: Styles.subTitleTextStyle(
+                        fontSize: 18, fontWeight: FontWeight.w500),
+                  ),
+                );
+              }
               return SomethingWentWrong(message: state.error);
             }
             return const SizedBox();

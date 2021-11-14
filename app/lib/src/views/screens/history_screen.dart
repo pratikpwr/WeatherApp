@@ -35,26 +35,29 @@ class _HistoryScreenState extends State<HistoryScreen> {
             if (state is HistorySuccess) {
               final historyWeather = state.hisWeather;
               return SafeArea(
-                child: Column(
-                  children: [
-                    Container(
-                      padding: const EdgeInsets.symmetric(
-                          horizontal: 20, vertical: 16),
-                      alignment: Alignment.topLeft,
-                      child: Text(
-                        "History of\n5 Previous Days",
-                        style: Styles.titleTextStyle(fontSize: 26),
+                child: SingleChildScrollView(
+                  physics: const BouncingScrollPhysics(),
+                  child: Column(
+                    children: [
+                      Container(
+                        padding: const EdgeInsets.symmetric(
+                            horizontal: 20, vertical: 16),
+                        alignment: Alignment.topLeft,
+                        child: Text(
+                          "History of\n5 Previous Days",
+                          style: Styles.titleTextStyle(fontSize: 26),
+                        ),
                       ),
-                    ),
-                    ListView.builder(
-                        shrinkWrap: true,
-                        physics: const BouncingScrollPhysics(),
-                        itemCount: historyWeather.length,
-                        itemBuilder: (context, index) {
-                          return HoulyWeatherOfDayWidget(
-                              index: index, state: state);
-                        }),
-                  ],
+                      ListView.builder(
+                          shrinkWrap: true,
+                          physics: const BouncingScrollPhysics(),
+                          itemCount: historyWeather.length,
+                          itemBuilder: (context, index) {
+                            return HoulyWeatherOfDayWidget(
+                                index: index, state: state);
+                          }),
+                    ],
+                  ),
                 ),
               );
             }

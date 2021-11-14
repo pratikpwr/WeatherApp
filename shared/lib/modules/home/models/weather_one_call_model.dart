@@ -66,8 +66,6 @@ class Current {
     required this.clouds,
     required this.visibility,
     required this.windSpeed,
-    required this.windDeg,
-    required this.windGust,
     required this.weather,
     required this.pop,
   });
@@ -84,8 +82,6 @@ class Current {
   int clouds;
   int visibility;
   double? windSpeed;
-  double? windDeg;
-  double? windGust;
   List<Weather> weather;
   double? pop;
 
@@ -107,8 +103,6 @@ class Current {
         clouds: json["clouds"],
         visibility: mToKm(json["visibility"]),
         windSpeed: json["wind_speed"].toDouble(),
-        windDeg: json["wind_deg"].toDouble(),
-        windGust: json["wind_gust"].toDouble(),
         weather:
             List<Weather>.from(json["weather"].map((x) => Weather.fromJson(x))),
         pop: json["pop"] == null ? null : json["pop"].toDouble(),

@@ -13,7 +13,15 @@ class GetHomeData extends HomeEvent {
 
   const GetHomeData({required this.lat, required this.long});
 
-
   @override
   List<Object?> get props => [lat, long];
+}
+
+class LocationError extends HomeEvent {
+  final String error;
+
+  const LocationError(this.error);
+
+  @override
+  List<Object?> get props => [error];
 }

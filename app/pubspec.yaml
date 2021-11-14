@@ -19,6 +19,7 @@ dependencies:
 
   intl: ^0.17.0
   geolocator: ^7.7.0
+  android_intent: ^2.0.2
 
   # Local
   shared:

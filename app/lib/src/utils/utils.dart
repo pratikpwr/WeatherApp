@@ -1,6 +1,8 @@
 export 'app_state_notifier.dart';
 export 'styles.dart';
 
+import 'package:android_intent/android_intent.dart';
+import 'package:app/src/config/config.dart';
 import 'package:app/src/utils/utils.dart';
 import 'package:flutter/material.dart';
 import 'package:geolocator/geolocator.dart';
@@ -13,7 +15,11 @@ Future<Position> determinePosition() async {
 
   serviceEnabled = await Geolocator.isLocationServiceEnabled();
   if (!serviceEnabled) {
-    return Future.error('Location services are disabled.');
+    await _openLocationSetting();
+    serviceEnabled = await Geolocator.isLocationServiceEnabled();
+    if (!serviceEnabled) {
+      return Future.error(locationDisabledError);
+    }
   }
   permission = await Geolocator.checkPermission();
   if (permission == LocationPermission.denied) {
@@ -27,6 +33,13 @@ Future<Position> determinePosition() async {
         'Location permissions are permanently denied, we cannot request permissions.');
   }
   return await Geolocator.getCurrentPosition();
+}
+
+Future<void> _openLocationSetting() async {
+  const AndroidIntent intent = AndroidIntent(
+    action: 'android.settings.LOCATION_SOURCE_SETTINGS',
+  );
+  await intent.launch();
 }
 
 Widget spacer({double height = 16}) {
@@ -43,6 +56,7 @@ String getTimeInHour(int dt) {
   final hour = DateFormat('hh a').format(curDt);
   return hour;
 }
+
 String getTimeInHHMM(int dt) {
   final curDt = DateTime.fromMillisecondsSinceEpoch(dt * 1000);
   final hour = DateFormat('hh:mm a').format(curDt);
@@ -75,7 +89,7 @@ class Loading extends StatelessWidget {
 }
 
 class SomethingWentWrong extends StatelessWidget {
-  const SomethingWentWrong({Key? key, this.message = "SOMETHING_WENT_WRONG"})
+  const SomethingWentWrong({Key? key, this.message = "Something went wrong !"})
       : super(key: key);
   final String message;
 
@@ -84,7 +98,7 @@ class SomethingWentWrong extends StatelessWidget {
     return Center(
       child: Text(
         message,
-        style: GoogleFonts.poppins(fontSize: 16, fontWeight: FontWeight.w500),
+        style: Styles.titleTextStyle(fontSize: 16),
       ),
     );
   }
@@ -100,7 +114,7 @@ class NoRecordFound extends StatelessWidget {
     return Center(
       child: Text(
         message,
-        style: GoogleFonts.poppins(fontSize: 16, fontWeight: FontWeight.w500),
+        style: Styles.titleTextStyle(fontSize: 16),
       ),
     );
   }
