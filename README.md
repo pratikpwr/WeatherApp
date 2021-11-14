@@ -13,18 +13,16 @@
     - get weather forecast of next 7 days
     - search weather of city
     - get weather history of 5 previous days
-----------
+
 ## Screenshots
-<br/>
 
-<img src="https://github.com/pratikpwr/WeatherApp/blob/master/screenshots/home-sunny.png"><img src="https://github.com/pratikpwr/WeatherApp/blob/master/screenshots/home-details.png">
 
-<br/>
-<br/>
-
-<img src="https://github.com/pratikpwr/WeatherApp/blob/master/screenshots/search.png"><img src="https://github.com/pratikpwr/WeatherApp/blob/master/screenshots/history.png">
+<img src="https://github.com/pratikpwr/WeatherApp/blob/master/screenshots/home-sunny.png" width="270" height="550">  <img src="https://github.com/pratikpwr/WeatherApp/blob/master/screenshots/home-details.png" width="270" height="550">
 
 <br/>
+
+<img src="https://github.com/pratikpwr/WeatherApp/blob/master/screenshots/search.png" width="270" height="550">  <img src="https://github.com/pratikpwr/WeatherApp/blob/master/screenshots/history.png" width="270" height="550">
+
 
 ----------
 Build by [Pratik Pawar](https://github.com/pratikpwr/) 
