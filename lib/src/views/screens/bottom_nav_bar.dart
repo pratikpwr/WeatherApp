@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 
-import '../../core/themes/app_colors.dart';
+import '../../features/city/search_screen.dart';
 import '../../features/history/history_screen.dart';
 import '../../features/home/home_screen.dart';
-import '../../features/city/search_screen.dart';
 import 'map_screen.dart';
 
 class BottomNavBar extends StatefulWidget {
@@ -33,6 +31,7 @@ class _BottomNavBarState extends State<BottomNavBar> {
 
   @override
   Widget build(BuildContext context) {
+    final theme = Theme.of(context);
     return WillPopScope(
       onWillPop: () async {
         final isFirstRouteInCurrentTab =
@@ -46,44 +45,75 @@ class _BottomNavBarState extends State<BottomNavBar> {
       },
       child: Scaffold(
         body: _widgetOptions.elementAt(_selectedIndex),
-        bottomNavigationBar: BottomNavigationBar(
-          type: BottomNavigationBarType.fixed,
-          currentIndex: _selectedIndex,
-          elevation: 0,
-          showSelectedLabels: false,
-          showUnselectedLabels: false,
-          selectedItemColor: AppColors.iconColor,
-          unselectedItemColor: Colors.grey[500],
-          backgroundColor: Theme.of(context).scaffoldBackgroundColor,
-          selectedLabelStyle: GoogleFonts.poppins(),
-          items: const [
-            BottomNavigationBarItem(
-                icon: Icon(
-                  Icons.home_rounded,
-                ),
-                label: "Home"),
-            BottomNavigationBarItem(
-                icon: Icon(
-                  Icons.search_rounded,
-                ),
-                label: "Search"),
-            BottomNavigationBarItem(
-                icon: Icon(
-                  Icons.book,
-                ),
-                label: "History"),
-            BottomNavigationBarItem(
-                icon: Icon(
-                  Icons.map_rounded,
-                ),
-                label: "Maps"),
-          ],
-          onTap: (index) {
-            setState(() {
-              _selectedIndex = index;
-            });
-          },
+        bottomNavigationBar: NavigationBarTheme(
+          data: NavigationBarThemeData(
+            indicatorColor: theme.colorScheme.primaryContainer,
+            labelTextStyle:
+                MaterialStateProperty.all(theme.textTheme.bodyText2),
+          ),
+          child: NavigationBar(
+            backgroundColor: theme.colorScheme.background,
+            selectedIndex: _selectedIndex,
+            onDestinationSelected: (int index) {
+              setState(() {
+                _selectedIndex = index;
+              });
+            },
+            destinations: const [
+              NavigationDestination(
+                  icon: Icon(
+                    Icons.home_outlined,
+                  ),
+                  selectedIcon: Icon(
+                    Icons.home_rounded,
+                  ),
+                  label: "Home"),
+              NavigationDestination(
+                  icon: Icon(
+                    Icons.search_outlined,
+                  ),
+                  selectedIcon: Icon(
+                    Icons.search_rounded,
+                  ),
+                  label: "Search"),
+              NavigationDestination(
+                  icon: Icon(
+                    Icons.book_outlined,
+                  ),
+                  selectedIcon: Icon(
+                    Icons.book_rounded,
+                  ),
+                  label: "History"),
+              NavigationDestination(
+                  icon: Icon(
+                    Icons.map_outlined,
+                  ),
+                  selectedIcon: Icon(
+                    Icons.map_rounded,
+                  ),
+                  label: "Maps"),
+            ],
+          ),
         ),
+        // bottomNavigationBar: BottomNavigationBar(
+        //   type: BottomNavigationBarType.fixed,
+        //   currentIndex: _selectedIndex,
+        //   elevation: 0,
+        //   showSelectedLabels: false,
+        //   showUnselectedLabels: false,
+        //   selectedItemColor: AppColors.iconColor,
+        //   unselectedItemColor: Colors.grey[500],
+        //   backgroundColor: Theme.of(context).scaffoldBackgroundColor,
+        //   selectedLabelStyle: GoogleFonts.poppins(),
+        //   items: const [
+
+        //   ],
+        //   onTap: (index) {
+        //     setState(() {
+        //       _selectedIndex = index;
+        //     });
+        //   },
+        // ),
       ),
     );
   }

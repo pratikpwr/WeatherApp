@@ -25,7 +25,7 @@ class MyApp extends StatelessWidget {
         child: MaterialApp(
           title: appName,
           debugShowCheckedModeBanner: false,
-          theme: ThemeConfig.myLightTheme,
+          theme: ThemeConfig.lightTheme,
           darkTheme: ThemeConfig.darkTheme,
           themeMode: appState.isDarkMode ? ThemeMode.dark : ThemeMode.light,
           onGenerateRoute: routes,

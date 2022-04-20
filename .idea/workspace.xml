@@ -22,10 +22,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51631b25-7640-4d9f-b40b-c74c078e5148" name="Default Changelist" comment="architecture changed">
+    <list default="true" id="51631b25-7640-4d9f-b40b-c74c078e5148" name="Default Changelist" comment="gradle changes">
+      <change afterPath="$PROJECT_DIR$/lib/src/core/themes/color_schemes.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/android/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/app.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/app.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/core/themes/app_colors.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/core/themes/app_colors.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/core/themes/theme_data.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/core/themes/theme_data.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/views/screens/bottom_nav_bar.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/views/screens/bottom_nav_bar.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,17 +65,17 @@
     <property name="cidr.known.project.marker" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/src/core/network" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/src/core/themes" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib/src/core/themes" />
       <recent name="$PROJECT_DIR$/lib/src/core/network" />
       <recent name="D:\MyProjects\AndroidStudioProjects\3.OtherProjects\farmther\screenshots" />
       <recent name="D:\MyProjects\AndroidStudioProjects\3.OtherProjects\farmther\app\assets\3d-resized" />
       <recent name="D:\MyProjects\AndroidStudioProjects\3.OtherProjects\farmther\app\assets\3d" />
-      <recent name="D:\MyProjects\AndroidStudioProjects\3.OtherProjects\farmther\api\lib" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/lib/src/features/city" />
@@ -234,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650480543846</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="gradle changes">
+      <created>1650481188103</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1650481188103</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -275,7 +285,8 @@
     <MESSAGE value="final before submission" />
     <MESSAGE value="README.md update" />
     <MESSAGE value="architecture changed" />
-    <option name="LAST_COMMIT_MESSAGE" value="architecture changed" />
+    <MESSAGE value="gradle changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="gradle changes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
