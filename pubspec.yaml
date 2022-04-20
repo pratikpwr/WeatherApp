@@ -1,0 +1,48 @@
+name: app
+description: A whether app based on Materail U
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI
+  google_fonts: ^2.3.1
+
+  # Network
+  dio: ^4.0.6
+  http: ^0.13.4
+  connectivity: ^3.0.6
+
+  # Logic
+  bloc: ^7.1.0
+  equatable: ^2.0.3
+  meta: ^1.7.0
+  flutter_bloc: ^7.3.0
+  provider: ^6.0.2
+  shared_preferences: ^2.0.13
+
+  # Services
+  intl: ^0.17.0
+  geolocator: ^8.2.0
+  android_intent: ^2.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.4
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/3d/
+    - assets/3d-resized/
