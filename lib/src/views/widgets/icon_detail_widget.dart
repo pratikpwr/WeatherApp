@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
 import '../../core/themes/app_colors.dart';
-import '../../core/themes/text_styles.dart';
 
 class IconDetailWidget extends StatelessWidget {
   const IconDetailWidget({Key? key, required this.icon, required this.text})
@@ -23,7 +22,7 @@ class IconDetailWidget extends StatelessWidget {
         ),
         Text(
           text,
-          style: titleTextStyle(fontSize: 16),
+          style: Theme.of(context).textTheme.subtitle1,
         )
       ],
     );

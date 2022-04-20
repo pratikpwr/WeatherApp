@@ -22,13 +22,19 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51631b25-7640-4d9f-b40b-c74c078e5148" name="Default Changelist" comment="gradle changes">
-      <change afterPath="$PROJECT_DIR$/lib/src/core/themes/color_schemes.dart" afterDir="false" />
+    <list default="true" id="51631b25-7640-4d9f-b40b-c74c078e5148" name="Default Changelist" comment="bottom nav bar new ui">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/src/app.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/app.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/core/themes/app_colors.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/core/themes/app_colors.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/core/themes/theme_data.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/core/themes/theme_data.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/features/city/search_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/features/city/screens/search_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/features/history/history_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/features/history/screens/history_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/features/history/hourly_expanding_widget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/features/history/widgets/hourly_expanding_widget.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/features/home/bloc/home_bloc.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/features/home/bloc/home_bloc.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/features/home/dialy_weather_widget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/features/home/widgets/dialy_weather_widget.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/features/home/home_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/features/home/screens/home_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/features/home/hourly_weather_widget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/features/home/widgets/hourly_weather_widget.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/features/home/weather_detail_widget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/features/home/widgets/weather_detail_widget.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/src/views/screens/bottom_nav_bar.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/views/screens/bottom_nav_bar.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/views/widgets/icon_detail_widget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/views/widgets/icon_detail_widget.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,11 +84,11 @@
       <recent name="D:\MyProjects\AndroidStudioProjects\3.OtherProjects\farmther\app\assets\3d" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/lib/src/features/city" />
-      <recent name="$PROJECT_DIR$/lib/src/core/themes" />
-      <recent name="$PROJECT_DIR$/lib/src/features/history" />
-      <recent name="$PROJECT_DIR$/lib/src/features/home" />
-      <recent name="$PROJECT_DIR$/lib/src/core/constants" />
+      <recent name="$PROJECT_DIR$/lib/src/features/history/widgets" />
+      <recent name="$PROJECT_DIR$/lib/src/features/history/screens" />
+      <recent name="$PROJECT_DIR$/lib/src/features/city/screens" />
+      <recent name="$PROJECT_DIR$/lib/src/features/home/widgets" />
+      <recent name="$PROJECT_DIR$/lib/src/features/home/screens" />
     </key>
   </component>
   <component name="RunManager" selected="Flutter.app">
@@ -244,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650481188103</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="bottom nav bar new ui">
+      <created>1650486366725</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1650486366725</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -286,7 +299,8 @@
     <MESSAGE value="README.md update" />
     <MESSAGE value="architecture changed" />
     <MESSAGE value="gradle changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="gradle changes" />
+    <MESSAGE value="bottom nav bar new ui" />
+    <option name="LAST_COMMIT_MESSAGE" value="bottom nav bar new ui" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import '../../core/themes/text_styles.dart';
-import 'models/current_model.dart';
+import '../../../core/themes/text_styles.dart';
+import '../models/current_model.dart';
 
 class WeatherDetailsWidget extends StatelessWidget {
   const WeatherDetailsWidget({

@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
-import '../../core/constants/image_const.dart';
-import '../../core/themes/app_colors.dart';
-import '../../core/themes/text_styles.dart';
-import '../../core/utils/utils.dart';
-import '../home/hourly_weather_widget.dart';
-import 'bloc/history_bloc.dart';
+import '../../../core/constants/image_const.dart';
+import '../../../core/themes/app_colors.dart';
+import '../../../core/themes/text_styles.dart';
+import '../../../core/utils/utils.dart';
+import '../../home/widgets/hourly_weather_widget.dart';
+import '../bloc/history_bloc.dart';
 
 class HourlyWeatherOfDayWidget extends StatefulWidget {
   const HourlyWeatherOfDayWidget(

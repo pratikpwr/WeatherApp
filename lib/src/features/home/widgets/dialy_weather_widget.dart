@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
-import '../../core/constants/image_const.dart';
-import '../../core/themes/text_styles.dart';
-import '../../core/utils/utils.dart';
-import 'models/daily_model.dart';
+import '../../../core/constants/image_const.dart';
+import '../../../core/themes/text_styles.dart';
+import '../../../core/utils/utils.dart';
+import '../models/daily_model.dart';
 
 class DailyWeatherWidget extends StatelessWidget {
   const DailyWeatherWidget({Key? key, required this.dailyWeather})

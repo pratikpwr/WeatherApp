@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-import '../../features/city/search_screen.dart';
-import '../../features/history/history_screen.dart';
-import '../../features/home/home_screen.dart';
+import '../../features/city/screens/search_screen.dart';
+import '../../features/history/screens/history_screen.dart';
+import '../../features/home/screens/home_screen.dart';
 import 'map_screen.dart';
 
 class BottomNavBar extends StatefulWidget {
@@ -95,25 +95,6 @@ class _BottomNavBarState extends State<BottomNavBar> {
             ],
           ),
         ),
-        // bottomNavigationBar: BottomNavigationBar(
-        //   type: BottomNavigationBarType.fixed,
-        //   currentIndex: _selectedIndex,
-        //   elevation: 0,
-        //   showSelectedLabels: false,
-        //   showUnselectedLabels: false,
-        //   selectedItemColor: AppColors.iconColor,
-        //   unselectedItemColor: Colors.grey[500],
-        //   backgroundColor: Theme.of(context).scaffoldBackgroundColor,
-        //   selectedLabelStyle: GoogleFonts.poppins(),
-        //   items: const [
-
-        //   ],
-        //   onTap: (index) {
-        //     setState(() {
-        //       _selectedIndex = index;
-        //     });
-        //   },
-        // ),
       ),
     );
   }

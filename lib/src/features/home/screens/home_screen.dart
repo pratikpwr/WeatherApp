@@ -1,59 +1,31 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:geolocator/geolocator.dart';
 
-import '../../core/constants/image_const.dart';
-import '../../core/constants/string_const.dart';
-import '../../core/themes/app_colors.dart';
-import '../../core/themes/text_styles.dart';
-import '../../core/utils/utils.dart';
-import '../home/weather_detail_widget.dart';
-import 'bloc/home_bloc.dart';
-import 'dialy_weather_widget.dart';
-import 'hourly_weather_widget.dart';
+import '../../../core/constants/image_const.dart';
+import '../../../core/constants/string_const.dart';
+import '../../../core/themes/app_colors.dart';
+import '../../../core/themes/text_styles.dart';
+import '../../../core/utils/utils.dart';
+import '../bloc/home_bloc.dart';
+import '../widgets/dialy_weather_widget.dart';
+import '../widgets/hourly_weather_widget.dart';
+import '../widgets/weather_detail_widget.dart';
 
-class HomeScreen extends StatefulWidget {
+class HomeScreen extends StatelessWidget {
   const HomeScreen({Key? key}) : super(key: key);
-
-  @override
-  State<HomeScreen> createState() => _HomeScreenState();
-}
-
-class _HomeScreenState extends State<HomeScreen> {
-  double? lat;
-  double? long;
-
-  @override
-  void initState() {
-    super.initState();
-    getLocation();
-  }
-
-  getLocation() async {
-    try {
-      Position pos = await determinePosition();
-      // GetHomeData(lat: 20.8326608, long: 74.168528)
-      lat = pos.latitude;
-      long = pos.longitude;
-      BlocProvider.of<HomeBloc>(context)
-          .add(GetHomeData(lat: lat!, long: long!));
-    } catch (err) {
-      showSnackBar(context, err.toString());
-      BlocProvider.of<HomeBloc>(context).add(LocationError(err.toString()));
-    }
-  }
 
   @override
   Widget build(BuildContext context) {
     final _size = MediaQuery.of(context).size;
     return Scaffold(
-      body: BlocListener<HomeBloc, HomeState>(
-        listener: (context, state) {
-          if (state is HomeFailed) {
-            showSnackBar(context, state.error);
-          }
-        },
-        child: BlocBuilder<HomeBloc, HomeState>(
+      body: BlocProvider(
+        create: (context) => HomeBloc()..getLocation(),
+        child: BlocConsumer<HomeBloc, HomeState>(
+          listener: (context, state) {
+            if (state is HomeFailed) {
+              showSnackBar(context, state.error);
+            }
+          },
           builder: (context, state) {
             if (state is HomeLoading) {
               return const Loading();

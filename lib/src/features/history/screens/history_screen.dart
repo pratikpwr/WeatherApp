@@ -1,35 +1,25 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import '../../core/themes/text_styles.dart';
-import '../../core/utils/utils.dart';
-import 'bloc/history_bloc.dart';
-import 'hourly_expanding_widget.dart';
+import '../../../core/themes/text_styles.dart';
+import '../../../core/utils/utils.dart';
+import '../bloc/history_bloc.dart';
+import '../widgets/hourly_expanding_widget.dart';
 
-class HistoryScreen extends StatefulWidget {
+class HistoryScreen extends StatelessWidget {
   const HistoryScreen({Key? key}) : super(key: key);
 
   @override
-  State<HistoryScreen> createState() => _HistoryScreenState();
-}
-
-class _HistoryScreenState extends State<HistoryScreen> {
-  @override
-  void initState() {
-    BlocProvider.of<HistoryBloc>(context).add(GetHistoryData());
-    super.initState();
-  }
-
-  @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: BlocListener<HistoryBloc, HistoryState>(
-        listener: (context, state) {
-          if (state is HistoryFailed) {
-            showSnackBar(context, state.error);
-          }
-        },
-        child: BlocBuilder<HistoryBloc, HistoryState>(
+    return BlocProvider(
+      create: (context) => HistoryBloc()..add(GetHistoryData()),
+      child: Scaffold(
+        body: BlocConsumer<HistoryBloc, HistoryState>(
+          listener: (context, state) {
+            if (state is HistoryFailed) {
+              showSnackBar(context, state.error);
+            }
+          },
           builder: (context, state) {
             if (state is HistoryLoading) {
               return const Loading();
