@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
 import '../../../core/constants/image_const.dart';
-import '../../../core/themes/text_styles.dart';
 import '../../../core/utils/utils.dart';
+import '../../../views/widgets/padding.dart';
 import '../models/current_model.dart';
 
 class HourlyWeatherWidget extends StatelessWidget {
@@ -16,8 +16,9 @@ class HourlyWeatherWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final _size = MediaQuery.of(context).size;
+    final theme = Theme.of(context);
     return SizedBox(
-      height: _size.height * 0.15,
+      height: _size.height * 0.16,
       child: ListView.builder(
           itemCount: hourWeather.length,
           shrinkWrap: true,
@@ -28,25 +29,25 @@ class HourlyWeatherWidget extends StatelessWidget {
               return const SizedBox();
             }
             return Container(
-              padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 6),
+              padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
               child: Column(
                 children: [
                   Text(
                     getTimeInHour(hourWeather[index].dt),
-                    style: titleTextStyle(
-                        fontSize: 14, fontWeight: FontWeight.w500),
+                    style: theme.textTheme.subtitle1
+                        ?.copyWith(color: theme.colorScheme.onSurfaceVariant),
                   ),
-                  spacer(height: 10),
+                  padding12,
                   Image.asset(
                     ImageAssets.getSmallAsset(
                         hourWeather[index].weather.first.icon),
                     height: _size.height * 0.05,
                   ),
-                  spacer(height: 10),
+                  padding12,
                   Text(
                     '${hourWeather[index].temp}°',
-                    style: titleTextStyle(
-                        fontSize: 20, fontWeight: FontWeight.w500),
+                    style: theme.textTheme.headline6
+                        ?.copyWith(color: theme.colorScheme.onSurface),
                   ),
                 ],
               ),

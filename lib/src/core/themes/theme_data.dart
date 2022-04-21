@@ -19,8 +19,12 @@ class ThemeConfig {
     );
   }
 
+  static ColorScheme colorSchemeFromSeed =
+      ColorScheme.fromSeed(seedColor:  Colors.orange);
+
   static ThemeData themeFromSeed() => ThemeData.from(
-      colorScheme: ColorScheme.fromSeed(seedColor: const Color(0xFF553EE9)));
+      colorScheme: colorSchemeFromSeed,
+      textTheme: textTheme(colorSchemeFromSeed));
 
   static ThemeData get darkTheme => simpleTheme(darkColorScheme);
 

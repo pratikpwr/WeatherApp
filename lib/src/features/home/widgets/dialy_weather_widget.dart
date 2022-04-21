@@ -1,7 +1,7 @@
+import 'package:app/src/views/widgets/padding.dart';
 import 'package:flutter/material.dart';
 
 import '../../../core/constants/image_const.dart';
-import '../../../core/themes/text_styles.dart';
 import '../../../core/utils/utils.dart';
 import '../models/daily_model.dart';
 
@@ -12,9 +12,8 @@ class DailyWeatherWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final _size = MediaQuery.of(context).size;
     return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: 24),
+      padding: const EdgeInsets.symmetric(horizontal: 16),
       child: ListView.builder(
           shrinkWrap: true,
           physics: const NeverScrollableScrollPhysics(),
@@ -23,43 +22,62 @@ class DailyWeatherWidget extends StatelessWidget {
             if (index == 0) {
               return const SizedBox();
             }
-            return Padding(
-              padding: const EdgeInsets.symmetric(vertical: 10),
-              child: Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: [
-                    SizedBox(
-                      width: _size.width * 0.27,
-                      child: Text(
-                        getDayFromEpoch(dailyWeather[index].dt),
-                        style: subTitleTextStyle(
-                            fontSize: 18, fontWeight: FontWeight.w500),
-                      ),
-                    ),
-                    SizedBox(
-                      width: _size.width * 0.09,
-                      child: Image.asset(
-                        ImageAssets.getSmallAsset(
-                            dailyWeather[index].weather.first.icon),
-                        width: _size.width * 0.09,
-                      ),
-                    ),
-                    const SizedBox(
-                      width: 2,
-                    ),
-                    Text(
-                      '${dailyWeather[index].temp.max}°',
-                      style: titleTextStyle(
-                          fontSize: 20, fontWeight: FontWeight.w500),
-                    ),
-                    Text(
-                      '${dailyWeather[index].temp.min}°',
-                      style: subTitleTextStyle(
-                          fontSize: 20, fontWeight: FontWeight.w500),
-                    ),
-                  ]),
-            );
+            return DaySummaryWidget(dailyWeather: dailyWeather[index]);
           }),
+    );
+  }
+}
+
+class DaySummaryWidget extends StatelessWidget {
+  const DaySummaryWidget({
+    Key? key,
+    required this.dailyWeather,
+  }) : super(key: key);
+
+  final Daily dailyWeather;
+
+  @override
+  Widget build(BuildContext context) {
+    final _size = MediaQuery.of(context).size;
+    final theme = Theme.of(context);
+    return Container(
+      padding: const EdgeInsets.symmetric(vertical: 12, horizontal: 16),
+      margin: const EdgeInsets.symmetric(vertical: 8),
+      decoration: BoxDecoration(
+          color: theme.colorScheme.secondaryContainer,
+          borderRadius: BorderRadius.circular(15)),
+      child: Row(
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        children: [
+          Expanded(
+            flex: 2,
+            child: Text(
+              getDayFromEpoch(dailyWeather.dt),
+              style: theme.textTheme.headline6?.copyWith(
+                color: theme.colorScheme.onSecondaryContainer,
+              ),
+            ),
+          ),
+          Image.asset(
+            ImageAssets.getSmallAsset(dailyWeather.weather.first.icon),
+            width: _size.width * 0.09,
+          ),
+          padding32,
+          Text(
+            '${dailyWeather.temp.max}°',
+            style: theme.textTheme.headline5?.copyWith(
+              color: theme.colorScheme.onSecondaryContainer,
+            ),
+          ),
+          padding24,
+          Text(
+            '${dailyWeather.temp.min}°',
+            style: theme.textTheme.headline6?.copyWith(
+              color: theme.colorScheme.tertiary,
+            ),
+          ),
+        ],
+      ),
     );
   }
 }

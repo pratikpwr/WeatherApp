@@ -22,10 +22,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51631b25-7640-4d9f-b40b-c74c078e5148" name="Default Changelist" comment="bloc providers fixed">
+    <list default="true" id="51631b25-7640-4d9f-b40b-c74c078e5148" name="Default Changelist" comment="theme from seed">
+      <change afterPath="$PROJECT_DIR$/lib/src/views/widgets/padding.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/app.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/app.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/src/core/themes/theme_data.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/core/themes/theme_data.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/core/utils/utils.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/core/utils/utils.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/features/home/screens/home_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/features/home/screens/home_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/features/home/widgets/dialy_weather_widget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/features/home/widgets/dialy_weather_widget.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/features/home/widgets/hourly_weather_widget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/features/home/widgets/hourly_weather_widget.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/features/home/widgets/weather_detail_widget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/features/home/widgets/weather_detail_widget.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/views/screens/bottom_nav_bar.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/views/screens/bottom_nav_bar.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -255,7 +261,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650487362853</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="theme from seed">
+      <created>1650567305933</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1650567305933</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -299,7 +312,8 @@
     <MESSAGE value="gradle changes" />
     <MESSAGE value="bottom nav bar new ui" />
     <MESSAGE value="bloc providers fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="bloc providers fixed" />
+    <MESSAGE value="theme from seed" />
+    <option name="LAST_COMMIT_MESSAGE" value="theme from seed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

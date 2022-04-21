@@ -47,9 +47,19 @@ class _BottomNavBarState extends State<BottomNavBar> {
         body: _widgetOptions.elementAt(_selectedIndex),
         bottomNavigationBar: NavigationBarTheme(
           data: NavigationBarThemeData(
-            indicatorColor: theme.colorScheme.primaryContainer,
-            labelTextStyle:
-                MaterialStateProperty.all(theme.textTheme.bodyText2),
+            labelTextStyle: MaterialStateProperty.all<TextStyle>(
+              theme.textTheme.subtitle2!.copyWith(
+                color: theme.colorScheme.onSecondaryContainer,
+              ),
+            ),
+            backgroundColor: theme.colorScheme.primary,
+            indicatorColor: theme.colorScheme.secondaryContainer,
+            iconTheme: MaterialStateProperty.all<IconThemeData>(
+              IconThemeData(
+                color: theme.colorScheme.onSecondaryContainer,
+              ),
+            ),
+            labelBehavior: NavigationDestinationLabelBehavior.alwaysShow,
           ),
           child: NavigationBar(
             backgroundColor: theme.colorScheme.background,
